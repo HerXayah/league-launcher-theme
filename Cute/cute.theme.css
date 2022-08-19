@@ -67,6 +67,17 @@
 
 }
 
+.parties-view
+{
+    background: url(https://i.imgur.com/FTQM8n3.png) !important;
+}
+.parties-view .parties-background {
+    opacity:0;
+}
+.collections-application{
+    background: url(https://i.imgur.com/FTQM8n3.png) !important;
+}
+
 .lol-uikit-dialog-frame {
 
     background-color: rgba(22, 22, 22, 0.726);
@@ -76,9 +87,38 @@
 
 }
 
+.loot-backdrop .lol-uikit-video-content{
+    background: url(https://i.imgur.com/FTQM8n3.png) !important;    
+    display: block;   
+    box-sizing: border-box;
+    width: 180px; 
+    height: 236px; 
+    padding-left: 180px; 
+}
+
 .lol-uikit-dialog-frame.top, .lol-uikit-dialog-frame.bottom {
 
     broder: 2px white solid;
+
+}
+
+/* Icons */
+
+.currency-be-icon-static {
+
+    background-image: ulr('https://thicc-thighs.de/stuff/mow.jpg');    
+
+}
+
+.currency-rp {
+
+    background-image: ulr('https://thicc-thighs.de/stuff/mow.jpg');    
+
+}
+
+.ticker-toggle {
+
+    background-image: url('https://i.imgur.com/FTQM8n3.png');
 
 }
 
