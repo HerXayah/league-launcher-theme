@@ -23,7 +23,7 @@ function addTheme(filename){
 function changeBackground() {
 
     var background = document.querySelector('.bKpFom img');
-    background.src = 'https://i.imgur.com/FTQM8n3.png';
+    background.style.backgroundImage = 'url(https://i.imgur.com/FTQM8n3.png)';
 
     var style = document.createElement('link');
     style.href = 'https://raw.githubusercontent.com/PrincessAkira/league-launcher-theme-test/main/Cute/background.css';
