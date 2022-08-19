@@ -8,11 +8,7 @@ window.addEventListener('load', () => {
         // ...
     addTheme();
     console.log('Cute theme added');
-    if(Error) {
-        console.log('Error');
-        interval.clearInterval();
-     }
-        }, 10000);
+        }, 2000);
 })
 
 function addTheme() {
