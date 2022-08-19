@@ -3,7 +3,7 @@
 //Version: UNFINISHED
 //Comment: I will update it remotly via the url below, you can still take the code and edit it with a local file tho
 
-addTheme('');
+addTheme('https://thicc-thighs.de/league-css/Cute/cute.theme.css');
 changeBackground();
 changeIcons();
 
@@ -22,16 +22,16 @@ function addTheme(filename){
 
 function changeBackground() {
 
-    var background = document.querySelector('.bKpFom img');
-    background.style.backgroundImage = 'url(https://i.imgur.com/FTQM8n3.png)';
+    var background = document.querySelector('.sc-bczRLJ');
+    background.src = 'https://i.imgur.com/FTQM8n3.png';
 
     var style = document.createElement('link');
-    style.href = 'https://raw.githubusercontent.com/PrincessAkira/league-launcher-theme-test/main/Cute/background.css';
+    style.href = 'https://thicc-thighs.de/league-css/Cute/background.css';
     style.type = 'text/css';
     style.rel = 'stylesheet';
     background.append(style);
 
-    var starguardian = document.querySelector('.animate-opacity .hold-leave .absolute .h-full .w-client .bg-w-full .bg-no-repeat');
+    var starguardian = document.querySelector('.hold-leave');
     starguardian.style.backgroundImage = 'url(https://i.imgur.com/FTQM8n3.png)';
 
 }
