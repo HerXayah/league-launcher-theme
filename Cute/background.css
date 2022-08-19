@@ -1,0 +1,26 @@
+/* Backgrounds */
+
+.bKpFom {
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+}
+
+:host .lol-uikit-dialog-frame {
+
+    background-color: rgba(22, 22, 22, 0.726);
+    border: 1px solid rgba(22, 22, 22, 0.726);
+    border-radius: 0.5rem;
+
+
+}
+
+:host .lol-uikit-dialog-frame.top, :host .lol-uikit-dialog-frame.bottom {
+
+    broder: 2px white solid;
+
+}

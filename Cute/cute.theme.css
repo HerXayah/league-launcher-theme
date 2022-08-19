@@ -1,0 +1,58 @@
+/* meow */
+
+
+/* Imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+
+* {
+
+    font-family: 'Dosis', sans-serif !important; 
+
+}
+
+/* UI */
+
+
+.rcp-fe-lol-home-sub-nav {
+
+    padding: 0.3rem;
+    background-color: rgba(22, 22, 22, 0.726);
+    left: 19rem !important;
+
+}
+
+.LcOverview__NavBarSlot-sc-1epub3v-3 {
+
+    top: 6.6rem;
+    left: 0;
+    right: 0.5rem;
+
+}
+
+.lpjjXv {
+
+    background-color: rgba(22, 22, 22, 0.726);
+    border: 1px solid rgba(22, 22, 22, 0.726);
+    border-radius: 0.5rem;
+
+}
+
+/* Patch Notes */
+
+.article-scrollable-body {
+
+    padding: 1rem;
+
+}
+
+.lcu-article-container .article-scrollable-body {
+
+    display: flex !important;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+
+}
