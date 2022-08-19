@@ -3,10 +3,10 @@
 //Version: UNFINISHED
 //Comment: I will update it remotly via the url below, you can still take the code and edit it with a local file tho
 
-addTheme();
-//changeBackground();
+clear();
 
-// Just including the theme into the client
+addTheme();
+
 function addTheme() {
     
  var head = document.getElementsByTagName('head')[0];
@@ -16,16 +16,6 @@ function addTheme() {
  style.type = 'text/css';
  style.rel = 'stylesheet';
  head.append(style);
-
-}
-
-function changeBackground() {
-
-    //var background = document.querySelector('.Backdrop-sc-e9hven-2 img');
-    //background.src = 'https://i.imgur.com/FTQM8n3.png';
-
-    var starguardian = document.querySelector('.hold-leave');
-    starguardian.style.backgroundImage = 'url(https://i.imgur.com/FTQM8n3.png)';
 
 }
 

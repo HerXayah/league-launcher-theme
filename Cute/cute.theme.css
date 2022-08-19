@@ -68,21 +68,15 @@
 
 }
 
-.hold-leave {
+.clash-root-background-landing, .hold-leave, .collections-application, .clash-root-background-landing, .__rcp-fe-lol-store {
 
-    background-image: url("https://i.imgur.com/FTQM8n3.png");
+    background-image: url("https://i.imgur.com/FTQM8n3.png") !important;
 
 }
 
-.parties-view
-{
-    background: url(https://i.imgur.com/FTQM8n3.png) !important;
-}
+
 .parties-view .parties-background {
     opacity:0;
-}
-.collections-application{
-    background: url(https://i.imgur.com/FTQM8n3.png) !important;
 }
 
 .lol-uikit-dialog-frame {
@@ -113,13 +107,13 @@
 
 .currency-be-icon-static {
 
-    background-image: ulr('https://thicc-thighs.de/stuff/mow.jpg');    
+    background-image: url('https://thicc-thighs.de/stuff/image.jpg');    
 
 }
 
 .currency-rp {
 
-    background-image: ulr('https://thicc-thighs.de/stuff/mow.jpg');    
+    background-image: url('https://thicc-thighs.de/stuff/mow.jpg');    
 
 }
 
@@ -146,3 +140,36 @@
             size: 102%;
 }
 
+/* Misc */
+
+.navigation-status-ticker-content-no-link {
+
+    background-color: rgba(22, 22, 22, 0.726);
+    border: 1px solid white;
+    border-radius: 0.5rem;
+
+} 
+
+.parties-game-select-screen, .navbar_backdrop, .v2-lobby-root-component, .clash-tab-hub, .collections-routes, .__rcp-fe-lol-store iframe {
+
+        background-color: rgba(22, 22, 22, 0.626);
+
+}
+
+.v2-header-component {
+
+    margin: 0;
+
+}
+
+div[data-screen-name='rcp-fe-lol-navigation-screen'] {
+    border: 0;
+}
+
+:host .lol-uikit-flat-button {
+
+    background-color: rgba(22, 22, 22, 0.726);
+    border: 1px solid white;
+    border-radius: 0.5rem;
+
+}
