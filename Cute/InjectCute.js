@@ -3,8 +3,6 @@
 //Version: UNFINISHED
 //Comment: I will update it remotly via the url below, you can still take the code and edit it with a local file tho
 
-clear();
-
 addTheme();
 
 function addTheme() {
