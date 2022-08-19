@@ -8,7 +8,7 @@ window.addEventListener('load', () => {
         // ...
     addTheme();
     console.log('Cute theme added');
-        }, 2000);
+        }, 3500);
 })
 
 function addTheme() {
