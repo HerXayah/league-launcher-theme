@@ -56,6 +56,5 @@ function changeIcons() {
     var RP = document.querySelector('.currency-rp');
     RP.style.backgroundImage = 'url(https://thicc-thighs.de/stuff/old_icon.png)';
 
-
 }
 

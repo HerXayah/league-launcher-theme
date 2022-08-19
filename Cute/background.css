@@ -10,7 +10,7 @@
 
 }
 
-:host .lol-uikit-dialog-frame {
+.lol-uikit-dialog-frame {
 
     background-color: rgba(22, 22, 22, 0.726);
     border: 1px solid rgba(22, 22, 22, 0.726);
@@ -19,7 +19,7 @@
 
 }
 
-:host .lol-uikit-dialog-frame.top, :host .lol-uikit-dialog-frame.bottom {
+.lol-uikit-dialog-frame.top, .lol-uikit-dialog-frame.bottom {
 
     broder: 2px white solid;
 
