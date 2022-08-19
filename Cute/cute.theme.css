@@ -135,6 +135,7 @@
 
 .navigation-status-ticker {
 
-    display: none;
+        transition: all 0.2s ease-in-out;
+            size: 102%;
 }
 
