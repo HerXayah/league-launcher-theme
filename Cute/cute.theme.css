@@ -116,9 +116,25 @@
 
 }
 
-.ticker-toggle {
+.ticker-button {
 
-    background-image: url('https://i.imgur.com/FTQM8n3.png');
+	background-image: url(https://stickfab.github.io/pc-fluenticons/assets/24/info.svg) !important;
+	filter: invert(76%) sepia(69%) saturate(2337%) hue-rotate(345deg) brightness(99%) contrast(97%);
+    transition: all 0.2s ease-in-out;
 
+}
+
+.ticker-button:hover {
+
+    background-image: url(https://stickfab.github.io/pc-fluenticons/assets/24/info.svg) !important;
+    filter: invert(76%) sepia(69%) saturate(2337%) hue-rotate(345deg) brightness(99%) contrast(97%) !important;
+    size: 102%;
+
+
+}
+
+.navigation-status-ticker {
+
+    display: none;
 }
 
