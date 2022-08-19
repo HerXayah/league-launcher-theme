@@ -3,7 +3,17 @@
 //Version: UNFINISHED
 //Comment: I will update it remotly via the url below, you can still take the code and edit it with a local file tho
 
-addTheme();
+window.addEventListener('load', () => {
+    setTimeout(function () {
+        // ...
+    addTheme();
+    console.log('Cute theme added');
+    if(Error) {
+        console.log('Error');
+        interval.clearInterval();
+     }
+        }, 10000);
+})
 
 function addTheme() {
     
@@ -16,4 +26,3 @@ function addTheme() {
  head.append(style);
 
 }
-
