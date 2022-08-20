@@ -74,6 +74,12 @@
 
 }
 
+.rcp-fe-viewport-sidebar {
+
+    background-color: black !important;
+
+}
+
 .parties-view .parties-background {
     opacity:0;
 }
