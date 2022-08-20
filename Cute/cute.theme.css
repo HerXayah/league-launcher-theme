@@ -49,6 +49,12 @@
 
 }
 
+.name, .style-profile-summoner-namings-component, .banner-summoner-name { 
+
+    display: none;
+
+}
+
 /* Backgrounds */
 
 .bKpFom {
@@ -82,7 +88,7 @@
 
 }
 
-.loot-backdrop .lol-uikit-video-content{
+.loot-backdrop .lol-uikit-video-content {
     background: url(https://i.imgur.com/FTQM8n3.png) !important;    
     display: block;   
     box-sizing: border-box;
