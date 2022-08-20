@@ -62,7 +62,7 @@
 }
 
 .clash-root-background-landing, .hold-leave, .collections-application, .clash-root-background-landing, .__rcp-fe-lol-store, .loot-backdrop.background-static,
-.personalized-offers-root, .parties-view {
+.personalized-offers-root, .parties-view, .clash-root-background {
 
     background-image: url("https://i.imgur.com/FTQM8n3.png") !important;
 
@@ -145,7 +145,7 @@
 } 
 
 .navbar_backdrop, .clash-tab-hub, .collections-routes, .__rcp-fe-lol-store iframe,
- .loot-contents, .parties-content, .clash-tab-team-root  {
+ .loot-contents, .parties-content, .clash-tab-team-root, .clash-tab-awards, .clash-tab-winners {
 
         background-color: rgba(22, 22, 22, 0.626);
         backdrop-filter: blur(10px);
@@ -188,6 +188,13 @@
 
 }
 
+.clash-tab-hub-content  {
+
+    left: 15px !important;
+    right: 45px !important;
+
+}
+
 .clash-find-team-header {
 
     background-color: transparent !important;
@@ -202,7 +209,7 @@
 
 .clash-root-faq-button, .custom-game-teams {
 
-    left: 1rem;
+    left: 1rem !important;
 
 }
 
