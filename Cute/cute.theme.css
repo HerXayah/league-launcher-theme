@@ -15,13 +15,6 @@
 
 /* UI */
 
-
-.rcp-fe-lol-home-sub-nav {
-
-    left: 19rem !important;
-
-}
-
 .LcOverview__NavBarSlot-sc-1epub3v-3 {
 
     top: 6.6rem;
@@ -69,7 +62,7 @@
 }
 
 .clash-root-background-landing, .hold-leave, .collections-application, .clash-root-background-landing, .__rcp-fe-lol-store, .loot-backdrop.background-static,
-.personalized-offers-root, .parties-view {
+.personalized-offers-root, .parties-view, .store-backdrop {
 
     background-image: url("https://i.imgur.com/FTQM8n3.png") !important;
 
@@ -151,9 +144,12 @@
 
 } 
 
-.parties-game-select-screen, .navbar_backdrop, .v2-lobby-root-component, .clash-tab-hub, .collections-routes, .__rcp-fe-lol-store iframe, .loot-contents  {
+.parties-game-select-screen, .navbar_backdrop, .v2-lobby-root-component, .clash-tab-hub, .collections-routes, .__rcp-fe-lol-store iframe,
+ .loot-contents, .parties-content, .clash-tab-team-root  {
 
         background-color: rgba(22, 22, 22, 0.626);
+        backdrop-filter: blur(10px);
+        transition: all 0.2s ease-in-out;
 
 }
 
@@ -166,9 +162,90 @@
 
 }
 
+.rcp-fe-lol-clash-full-sub-nav, .rcp-fe-lol-home-sub-nav,  .nav{
+
+    left: 19rem !important;
+
+}
+
+.collections-sub-nav-component {
+
+    left: 10rem !important;
+
+}
+
+.clash-hub {
+
+    width: auto;
+
+}
+
+.clash-tab-team-content, .clash-hub, .custom-game-teams  {
+
+    background-color: rgba(0,0,0,0.8);
+    padding: 1rem;
+    border-radius: 10px;
+
+}
+
+.clash-find-team-header {
+
+    background-color: transparent !important;
+
+}
+
 .loot-contents {
 
-    width: 66rem;
+    width: 66rem !important;
+
+}
+
+.clash-root-faq-button, .custom-game-teams {
+
+    left: 1rem;
+
+}
+
+.league-client-logo {
+
+    display: none;
+
+}
+
+.play-button-content {
+
+    left: 0;
+    width: 100% !important;
+
+}
+
+.play-button-container {
+
+    background-color: rgba(22, 22, 22, 0.626);
+    border-radius: 0.5rem;
+    width: 5rem !important;
+    height: 100%;
+    text-align: center;
+    padding: 0.3rem;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.basic-button:disabled {
+
+    background-color: rgba(22, 22, 22, 0.626);
+
+}
+
+.play-button-container:hover {
+
+    background-color: rgba(109, 107, 107, 0.897);
+
+}
+
+.play-button-container, .play-button-frame {
+
+    background-image: none !important;
 
 }
 
