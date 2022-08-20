@@ -232,14 +232,14 @@
 
 .play-button-content {
 
-    width: auto;
-    left: auto;
+    width: unset !important;
+    left: unset !important;
 
 }
 
 .play-button-text {
 
-    width: auto;
+    width: unset !important;
 
 }
 
