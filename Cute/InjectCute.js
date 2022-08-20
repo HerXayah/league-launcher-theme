@@ -22,3 +22,6 @@ function addTheme() {
  head.append(style);
 
 }
+
+var bg = document.querySelector(".lol-uikit-background-switcher-image");
+bg.src = "https://i.imgur.com/FTQM8n3.png";
