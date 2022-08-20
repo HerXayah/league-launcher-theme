@@ -8,7 +8,7 @@ window.addEventListener('load', () => {
         // ...
     addTheme();
     console.log('Cute theme added');
-        }, 4500);
+        }, 3500);
 })
 
 function addTheme() {
@@ -22,6 +22,3 @@ function addTheme() {
  head.append(style);
 
 }
-
-var bg = document.querySelector(".lol-uikit-background-switcher-image");
-bg.src = "https://i.imgur.com/FTQM8n3.png";
