@@ -62,7 +62,13 @@
 }
 
 .clash-root-background-landing, .hold-leave, .collections-application, .clash-root-background-landing, .__rcp-fe-lol-store, .loot-backdrop.background-static,
-.personalized-offers-root, .parties-view, .clash-root-background {
+.personalized-offers-root, .parties-view, .clash-root-background, .champion-splash-background {
+
+    background-image: url("https://i.imgur.com/FTQM8n3.png") !important;
+
+}
+
+.champ-select-bg img {
 
     background-image: url("https://i.imgur.com/FTQM8n3.png") !important;
 
@@ -78,7 +84,6 @@
     background-color: rgba(22, 22, 22, 0.726);
     border: 1px solid rgba(22, 22, 22, 0.726);
     border-radius: 0.5rem;
-
 
 }
 
