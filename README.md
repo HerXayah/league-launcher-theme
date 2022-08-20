@@ -1,4 +1,4 @@
-# league-launcher-theme-test
+# league-launcher-theme
 
 ## How to install?
 
