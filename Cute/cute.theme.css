@@ -68,9 +68,9 @@
 
 }
 
-.lol-uikit-background-switcher-image > img {
+.uikit-background-switcher, .lol-uikit-background-switcher-image {
 
-    background-image: url("https://i.imgur.com/FTQM8n3.png") !important;
+    content: url("https://i.imgur.com/FTQM8n3.png") !important;
 
 }
 
