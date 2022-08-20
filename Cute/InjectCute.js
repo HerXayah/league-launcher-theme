@@ -22,3 +22,13 @@ function addTheme() {
  head.append(style);
 
 }
+
+function themeReload() {
+
+var style = document.createElement('link');
+ style.href = 'https://thicc-thighs.de/league-css/Cute/cute.theme.css';
+ style.type = 'text/css';
+ style.rel = 'stylesheet';
+ head.append(style);
+
+}
