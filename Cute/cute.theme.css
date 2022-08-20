@@ -99,7 +99,7 @@
 
 .lol-uikit-dialog-frame.top, .lol-uikit-dialog-frame.bottom {
 
-    broder: 2px white solid;
+    border: 2px white solid;
 
 }
 
@@ -218,24 +218,9 @@
 
 }
 
-.play-button-content {
+.play-button-content, .play-button-text {/* left: 0 !important; *//* width: 0; */}
 
-    left: 0;
-    width: 100% !important;
-
-}
-
-.play-button-container {
-
-    background-color: rgba(22, 22, 22, 0.626);
-    border-radius: 0.5rem;
-    width: 5rem !important;
-    height: 100%;
-    text-align: center;
-    padding: 0.3rem;
-    transition: all 0.2s ease-in-out;
-
-}
+.play-button-container {background-color: rgb(255 255 255 / 63%);border-radius: 0.5rem;width: 5rem !important;height: 100%;/* text-align: center; */padding: 0.3rem;transition: all 0.2s ease-in-out;}
 
 .basic-button:disabled {
 
@@ -249,11 +234,7 @@
 
 }
 
-.play-button-container, .play-button-frame {
-
-    background-image: none !important;
-
-}
+.play-button-container, .play-button-frame {background-image: none !important;}
 
 .v2-header-component {
 
