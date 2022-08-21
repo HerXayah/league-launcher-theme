@@ -58,11 +58,33 @@
 .clash-root-background,
 .champion-splash-background {
    background-image: url('https://thicc-thighs.de/stuff/wallpaper.jpg') !important;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   background-color: black;
+   z-index: -1;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
 }
 
-.uikit-background-switcher,
-.lol-uikit-background-switcher-image {
+.uikit-background-switcher
+/*.lol-uikit-background-switcher-image */ {
    content: url('https://thicc-thighs.de/stuff/wallpaper.jpg') !important;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: contain;
+   filter: brightness(70%);
+   z-index: -1;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
 }
 
 .rcp-fe-viewport-sidebar {
@@ -81,6 +103,15 @@
 
 .loot-backdrop .lol-uikit-video-content {
    background: url(https://thicc-thighs.de/stuff/wallpaper.jpg) !important;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   background-color: black;
+   z-index: -1;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
    display: block;
    box-sizing: border-box;
    width: 180px;
@@ -139,8 +170,8 @@
 .clash-tab-team-root,
 .clash-tab-awards,
 .clash-tab-winners {
-   background-color: rgba(22, 22, 22, 0.626);
-   backdrop-filter: blur(10px);
+   background-color: rgba(22, 22, 22, 0.507);
+   backdrop-filter: blur(3px);
    transition: all 0.2s ease-in-out;
 }
 
