@@ -64,13 +64,13 @@
 .clash-root-background-landing, .hold-leave, .collections-application, .clash-root-background-landing, .__rcp-fe-lol-store, .loot-backdrop.background-static,
 .personalized-offers-root, .parties-view, .clash-root-background, .champion-splash-background {
 
-    background-image: url("https://i.imgur.com/FTQM8n3.png") !important;
+    background-image: url("https://i.imgur.com/IAMXnQj.png") !important;
 
 }
 
 .uikit-background-switcher, .lol-uikit-background-switcher-image {
 
-    content: url("https://i.imgur.com/FTQM8n3.png") !important;
+    content: url("https://i.imgur.com/IAMXnQj.png") !important;
 
 }
 
@@ -93,7 +93,7 @@
 }
 
 .loot-backdrop .lol-uikit-video-content {
-    background: url(https://i.imgur.com/FTQM8n3.png) !important;    
+    background: url(https://i.imgur.com/IAMXnQj.png) !important;    
     display: block;   
     box-sizing: border-box;
     width: 180px; 
@@ -254,15 +254,9 @@
 
 }
 
-.basic-button:disabled {
-
-    background-color: rgba(22, 22, 22, 0.626);
-
-}
-
 .play-button-container:hover {
 
-    background-color: rgba(109, 107, 107, 0.897);
+    background-color: rgba(59, 59, 59, 0.719);
 
 }
 
