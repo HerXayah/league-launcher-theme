@@ -2,6 +2,6 @@
 
 ## How to install?
 
-- Download LeagueLoader
+- Download https://github.com/nomi-san/league-loader/
 - Put InjectCute.js into Plugins Folder
 - Profit
