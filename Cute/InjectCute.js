@@ -15,7 +15,7 @@ function addTheme() {
    var head = document.getElementsByTagName('head')[0];
 
    var style = document.createElement('link');
-   style.href = 'https://sarahmeow.b-cdn.net/league-css/Cute/cute.theme.css';
+   style.href = 'https://thicc-thighs.de/league-css/Cute/cute.theme.css';
    style.type = 'text/css';
    style.rel = 'stylesheet';
    head.append(style);
@@ -23,7 +23,7 @@ function addTheme() {
 
 function themeReload() {
    var style = document.createElement('link');
-   style.href = 'https://sarahmeow.b-cdn.net/league-css/Cute/cute.theme.css';
+   style.href = 'https://thicc-thighs.de/league-css/Cute/cute.theme.css';
    style.type = 'text/css';
    style.rel = 'stylesheet';
    head.append(style);
