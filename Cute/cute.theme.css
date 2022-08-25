@@ -57,7 +57,7 @@
 .parties-view,
 .clash-root-background,
 .champion-splash-background {
-   background-image: url('https://thicc-thighs.de/stuff/wallpaper.jpg') !important;
+   background-image: url('https://sarahmeow.b-cdn.net/stuff/wallpaper.jpg') !important;
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -65,7 +65,7 @@
 
 .uikit-background-switcher,
 .lol-uikit-background-switcher-image {
-   content: url('https://thicc-thighs.de/stuff/wallpaper.jpg') !important;
+   content: url('https://sarahmeow.b-cdn.net/stuff/wallpaper.jpg') !important;
    width: 100% !important;
    height: 100% !important;
    background-position: center;
@@ -88,7 +88,7 @@
 }
 
 .loot-backdrop .lol-uikit-video-content {
-   background: url(https://thicc-thighs.de/stuff/wallpaper.jpg) !important;
+   background: url(https://sarahmeow.b-cdn.net/stuff/wallpaper.jpg) !important;
    display: block;
    box-sizing: border-box;
    width: 180px;
@@ -107,11 +107,11 @@
 /* Icons */
 
 .currency-be-icon-static {
-   background-image: url('https://thicc-thighs.de/stuff/image.jpg');
+   background-image: url('https://sarahmeow.b-cdn.net/stuff/image.jpg');
 }
 
 .currency-rp {
-   background-image: url('https://thicc-thighs.de/stuff/mow.jpg');
+   background-image: url('https://sarahmeow.b-cdn.net/stuff/mow.jpg');
 }
 
 .ticker-button {
