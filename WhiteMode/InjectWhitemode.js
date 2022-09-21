@@ -8,7 +8,7 @@ window.addEventListener('load', () => {
       // ...
       addTheme();
       button();
-      console.log('Cute theme added');
+      console.log('White theme added');
    }, 3500);
 });
 
