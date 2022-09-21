@@ -1,0 +1,255 @@
+/* meow */
+
+/* Imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+:root {
+   --font-display: 'Dosis', sans-serif;
+   --font-body: 'Dosis', sans-serif;
+}
+
+/* UI */
+
+.LcOverview__NavBarSlot-sc-1epub3v-3 {
+   top: 6.6rem;
+   left: 0;
+   right: 0.5rem;
+}
+
+.lpjjXv {
+   background-color: rgba(22, 22, 22, 0.726);
+   border: 1px solid rgba(22, 22, 22, 0.726);
+   border-radius: 0.5rem;
+}
+
+/* Patch Notes */
+
+.article-scrollable-body {
+   padding: 1rem;
+}
+
+.lcu-article-container .article-scrollable-body {
+   display: flex !important;
+   width: 100%;
+   text-align: center;
+   justify-content: center;
+   align-content: center;
+}
+
+/* Backgrounds */
+
+.bKpFom {
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+}
+
+.icon-image {
+   content: url('https://thicc-thighs.de/stuff/old_avatar.gif') !important;
+}
+
+.clash-root-background-landing,
+.hold-leave,
+.collections-application,
+.clash-root-background-landing,
+.__rcp-fe-lol-store,
+.loot-backdrop.background-static,
+.personalized-offers-root,
+.parties-view,
+.clash-root-background /*,
+.champion-splash-background */ {
+   background-image: url('https://thicc-thighs.de/stuff/wallpaper.jpg') !important;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.uikit-background-switcher,
+.lol-uikit-background-switcher-image {
+   content: url('https://thicc-thighs.de/stuff/wallpaper.jpg') !important;
+   width: 100% !important;
+   height: 100% !important;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.rcp-fe-viewport-sidebar {
+   background-color: black !important;
+}
+
+.parties-view .parties-background {
+   opacity: 0;
+}
+
+.lol-uikit-dialog-frame {
+   background-color: rgba(22, 22, 22, 0.726);
+   border: 1px solid rgba(22, 22, 22, 0.726);
+   border-radius: 0.5rem;
+}
+
+.loot-backdrop .lol-uikit-video-content {
+   background: url(https://thicc-thighs.de/stuff/wallpaper.jpg) !important;
+   display: block;
+   box-sizing: border-box;
+   width: 180px;
+   height: 236px;
+   padding-left: 180px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.lol-uikit-dialog-frame.top,
+.lol-uikit-dialog-frame.bottom {
+   border: 2px white solid;
+}
+
+/* Icons */
+
+.currency-be-icon-static {
+   background-image: url('https://thicc-thighs.de/stuff/image.jpg');
+}
+
+.currency-rp {
+   background-image: url('https://thicc-thighs.de/stuff/mow.jpg');
+}
+
+.ticker-button {
+   background-image: url(https://stickfab.github.io/pc-fluenticons/assets/24/info.svg) !important;
+   filter: invert(76%) sepia(69%) saturate(2337%) hue-rotate(345deg)
+      brightness(99%) contrast(97%);
+   transition: all 0.2s ease-in-out;
+}
+
+.ticker-button:hover {
+   background-image: url(https://stickfab.github.io/pc-fluenticons/assets/24/info.svg) !important;
+   filter: invert(76%) sepia(69%) saturate(2337%) hue-rotate(345deg)
+      brightness(99%) contrast(97%) !important;
+   size: 102%;
+}
+
+.navigation-status-ticker {
+   transition: all 0.2s ease-in-out;
+   size: 102%;
+}
+
+/* Misc */
+
+.navigation-status-ticker-content-no-link {
+   background-color: rgba(22, 22, 22, 0.726);
+   border: 1px solid white;
+   border-radius: 0.5rem;
+}
+
+.navbar_backdrop,
+.clash-tab-hub,
+.collections-routes,
+.__rcp-fe-lol-store iframe,
+.loot-contents,
+.parties-content,
+.clash-tab-team-root,
+.clash-tab-awards,
+.clash-tab-winners {
+   background-color: rgba(22, 22, 22, 0.626);
+   transition: all 0.2s ease-in-out;
+}
+
+.personalized-offers-content-wrapper {
+   padding: 1.5rem;
+   border-radius: 0.5rem;
+   height: 95% !important;
+   background-color: rgba(22, 22, 22, 0.726);
+}
+
+.rcp-fe-lol-clash-full-sub-nav,
+.rcp-fe-lol-home-sub-nav {
+   left: 21rem !important;
+}
+
+.collections-sub-nav-component {
+   left: 10rem !important;
+}
+
+.clash-hub {
+   width: auto;
+}
+
+.clash-tab-team-content,
+.clash-hub,
+.custom-game-teams {
+   background-color: rgba(0, 0, 0, 0.8);
+   padding: 1rem;
+   border-radius: 10px;
+}
+
+.clash-tab-hub-content {
+   left: 15px !important;
+   right: 45px !important;
+}
+
+.clash-find-team-header {
+   background-color: transparent !important;
+}
+
+.loot-contents {
+   width: 66rem !important;
+}
+
+.clash-root-faq-button,
+.custom-game-teams {
+   left: 1rem !important;
+}
+
+.league-client-logo {
+   display: none;
+}
+
+.play-button-container {
+   background-color: rgba(22, 22, 22, 0.626);
+   border-radius: 0.5rem;
+   width: 5rem !important;
+   height: 100%;
+   text-align: center;
+   padding: 0.3rem;
+   transition: all 0.2s ease-in-out;
+}
+
+.play-button-content {
+   width: unset !important;
+   left: unset !important;
+}
+
+.play-button-text {
+   width: unset !important;
+}
+
+.play-button-container:hover {
+   background-color: rgba(59, 59, 59, 0.719);
+}
+
+.play-button-container,
+.play-button-frame {
+   background-image: none !important;
+}
+
+.v2-header-component {
+   margin: 0;
+}
+
+div[data-screen-name='rcp-fe-lol-navigation-screen'] {
+   border: 0;
+}
+
+:host .lol-uikit-flat-button {
+   background-color: rgba(22, 22, 22, 0.726);
+   border: 1px solid white;
+   border-radius: 0.5rem;
+}
+
+.purchase-history-page-content-wrapper {
+   background-color: rgba(22, 22, 22, 0.726);
+}
