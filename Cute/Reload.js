@@ -18,7 +18,7 @@ const observer = new MutationObserver((mutations) => {
       btn.textContent = 'Reload theme';
       btn.onclick = () => {
          location.reload();
-         // themeReload();
+         themeReload();
       };
 
       console.debug('reee kms');
