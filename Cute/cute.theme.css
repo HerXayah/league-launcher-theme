@@ -47,6 +47,10 @@
    left: 0;
 }
 
+.icon-image {
+   content: url('https://thicc-thighs.de/stuff/old_avatar.gif') !important;
+}
+
 .clash-root-background-landing,
 .hold-leave,
 .collections-application,
@@ -55,8 +59,8 @@
 .loot-backdrop.background-static,
 .personalized-offers-root,
 .parties-view,
-.clash-root-background,
-.champion-splash-background {
+.clash-root-background /*,
+.champion-splash-background */ {
    background-image: url('https://thicc-thighs.de/stuff/wallpaper.jpg') !important;
    background-position: center;
    background-repeat: no-repeat;
