@@ -245,3 +245,7 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
    border: 1px solid white;
    border-radius: 0.5rem;
 }
+
+.purchase-history-page-content-wrapper {
+   background-color: rgba(22, 22, 22, 0.726);
+}

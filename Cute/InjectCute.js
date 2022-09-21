@@ -7,6 +7,7 @@ window.addEventListener('load', () => {
    setTimeout(function () {
       // ...
       addTheme();
+      button();
       console.log('Cute theme added');
    }, 3500);
 });
@@ -19,6 +20,26 @@ function addTheme() {
    style.type = 'text/css';
    style.rel = 'stylesheet';
    head.append(style);
+}
+
+function button() {
+   const label = document.createElement('p');
+   label.classList.add('lol-settings-window-size-text');
+   label.textContent = 'Reload Theme';
+
+   const btn = document.createElement('lol-uikit-flat-button-secondary');
+   btn.style.display = 'flex';
+   btn.textContent = 'Reload Theme';
+   btn.onclick = () => {
+      themeReload();
+   };
+
+   console.debug('reee kms');
+
+   const row = document.createElement('div');
+   row.classList.add('lol-settings-general-row');
+   row.append(label);
+   row.append(btn);
 }
 
 function themeReload() {
