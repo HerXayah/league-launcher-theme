@@ -10,6 +10,9 @@ P.S Rito.
 
 If you want this removed, dont ban me instantly. just message me.
 
+Mirrored into
+https://git.thicc-thighs.de/Sarah/league-launcher-theme
+
 ## Images
 
 <center>
