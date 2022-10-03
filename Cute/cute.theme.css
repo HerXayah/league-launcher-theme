@@ -67,16 +67,6 @@
    background-size: cover;
 }
 
-.uikit-background-switcher,
-.lol-uikit-background-switcher-image {
-   content: url('https://thicc-thighs.de/stuff/wallpaper.jpg') !important;
-   width: 100% !important;
-   height: 100% !important;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-}
-
 .rcp-fe-viewport-sidebar {
    background-color: black !important;
 }
