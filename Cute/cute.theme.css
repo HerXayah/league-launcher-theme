@@ -59,6 +59,7 @@
 .loot-backdrop.background-static,
 .personalized-offers-root,
 .parties-view,
+.yourshop-root,
 .clash-root-background /*,
 .champion-splash-background */ {
    background-image: url('https://thicc-thighs.de/stuff/wallpaper.jpg') !important;
@@ -101,11 +102,11 @@
 /* Icons */
 
 .currency-be-icon-static {
-   background-image: url('https://thicc-thighs.de/stuff/image.jpg');
+   background-image: url('https://thicc-thighs.de/stuff/image.jpg') !important;
 }
 
 .currency-rp {
-   background-image: url('https://thicc-thighs.de/stuff/mow.jpg');
+   background-image: url('https://thicc-thighs.de/stuff/mow.jpg') !important;
 }
 
 .ticker-button {
@@ -144,8 +145,8 @@
 .clash-tab-team-root,
 .clash-tab-awards,
 .clash-tab-winners {
-   background-color: rgba(22, 22, 22, 0.626);
-   transition: all 0.2s ease-in-out;
+   background-color: rgba(22, 22, 22, 0.626) !important;
+   transition: all 0.2s ease-in-out !important;
 }
 
 .personalized-offers-content-wrapper {
@@ -195,7 +196,7 @@
 }
 
 .league-client-logo {
-   display: none;
+   display: none !important;
 }
 
 .play-button-container {
