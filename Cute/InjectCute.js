@@ -1,7 +1,7 @@
 //Name: Cute
-//Author: Sarah
-//Version: UNFINISHED
-//Comment: I will update it remotly via the url below, you can still take the code and edit it with a local file tho
+//Author: Sarah | ♡Sarah~#0004
+//Version: 1.0
+//Comment: fuck rito >:c
 
 window.addEventListener('load', () => {
    document
