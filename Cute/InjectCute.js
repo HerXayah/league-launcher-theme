@@ -4,26 +4,14 @@
 //Comment: I will update it remotly via the url below, you can still take the code and edit it with a local file tho
 
 window.addEventListener('load', () => {
-   const css = document
-      .getElementsByTagName('head')[0]
-      .insertAdjacentHTML(
-         'beforeend',
-         '<link rel="stylesheet" href="https://thicc-thighs.de/league-css/Cute/cute.theme.css" />'
-      );
-   addTheme(css);
-   button();
-});
-
-function addTheme(css) {
-   const style = document.createElement('style');
-   style.textContent = css;
    document
       .getElementsByTagName('head')[0]
       .insertAdjacentHTML(
-         'beforeend',
+         'afterbegin',
          '<link rel="stylesheet" href="https://thicc-thighs.de/league-css/Cute/cute.theme.css" />'
       );
-}
+   button();
+});
 
 function button() {
    const label = document.createElement('p');
@@ -41,4 +29,14 @@ function button() {
    row.classList.add('lol-settings-general-row');
    row.append(label);
    row.append(btn);
+}
+
+function themeReload() {
+   document
+      .getElementsByTagName('head')[0]
+      .insertAdjacentHTML(
+         'afterbegin',
+         '<link rel="stylesheet" href="https://thicc-thighs.de/league-css/Cute/cute.theme.css" />'
+      );
+   location.reload();
 }
