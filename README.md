@@ -3,7 +3,7 @@
 ## How to install?
 
 -  Download https://github.com/nomi-san/league-loader/
--  Put InjectCute.js and Reload.js into Plugins Folder
+-  Put InjectCute.js into Plugins Folder
 -  Profit
 
 P.S Rito.
