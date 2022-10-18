@@ -5,7 +5,7 @@
 
 window.addEventListener('load', () => {
    document
-      .getElementsByTagName('head')[0]
+      .getElementsByTagName('body')[0]
       .insertAdjacentHTML(
          'afterbegin',
          '<link rel="stylesheet" href="https://thicc-thighs.de/league-css/Cute/cute.theme.css" />'
@@ -33,7 +33,7 @@ function button() {
 
 function themeReload() {
    document
-      .getElementsByTagName('head')[0]
+      .getElementsByTagName('body')[0]
       .insertAdjacentHTML(
          'afterbegin',
          '<link rel="stylesheet" href="https://thicc-thighs.de/league-css/Cute/cute.theme.css" />'
