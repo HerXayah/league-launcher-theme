@@ -11,6 +11,7 @@ window.addEventListener('load', () => {
          '<link rel="stylesheet" href="https://thicc-thighs.de/league-css/Cute/cute.theme.css" />'
       );
    button();
+   Console.clear();
    Console.log('We injected bois');
 });
 
