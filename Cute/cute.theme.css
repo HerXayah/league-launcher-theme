@@ -69,6 +69,18 @@
    background-size: cover;
 }
 
+.loot-backdrop .lol-uikit-video-content {
+   background: url(https://thicc-thighs.de/stuff/wallpaper.jpg) !important;
+   display: block;
+   box-sizing: border-box;
+   width: 180px;
+   height: 236px;
+   padding-left: 180px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
 .rcp-fe-viewport-sidebar {
    background-color: black !important;
 }
@@ -81,18 +93,6 @@
    background-color: rgba(22, 22, 22, 0.726);
    border: 1px solid rgba(22, 22, 22, 0.726);
    border-radius: 0.5rem;
-}
-
-.loot-backdrop .lol-uikit-video-content {
-   background: url(https://thicc-thighs.de/stuff/wallpaper.jpg) !important;
-   display: block;
-   box-sizing: border-box;
-   width: 180px;
-   height: 236px;
-   padding-left: 180px;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
 }
 
 .lol-uikit-dialog-frame.top,
