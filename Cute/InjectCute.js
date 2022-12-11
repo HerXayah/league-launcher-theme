@@ -17,21 +17,64 @@ const observer = new MutationObserver((mutations) => {
       const label = document.createElement('p');
       label.classList.add('lol-settings-window-size-text');
       label.textContent = 'Reload Theme';
+      label.style.marginBottom = '12px';
+
+      const searchdiv = document.createElement('searchbox-container');
+      searchdiv.style.marginBottom = '12px';
+      searchdiv.style.display = 'inline-block';
+
+      // create a text field
+      const input = document.createElement('lol-uikit-flat-input');
+
+      const searchbox = document.createElement('input');
+      searchbox.type = 'url';
+      searchbox.placeholder = 'https://thicc-thighs.de/stuff/wallpaper.jpg';
+      searchbox.style.width = '200px';
+      searchbox.name = 'name';
 
       const btn = document.createElement('lol-uikit-flat-button-secondary');
       btn.style.display = 'flex';
       btn.textContent = 'Reload theme';
+      btn.style.marginBottom = '12px';
       btn.onclick = () => {
          location.reload();
          themeReload();
       };
 
+      // if input of searchbox changes wait for 1 second
+      // and check if the value is a valid url
+      // if it is valid change the root values
+      searchbox.oninput = () => {
+         setTimeout(() => {
+            if (
+               searchbox.value.match(
+                  /(http(s?):)([/|.|\w|\s|-])*\.(?:jpg|gif|png)/g
+               )
+            ) {
+               accessCuteThemeCSS(searchbox.value);
+               console.log('valid url');
+            } else {
+               console.log('invalid url');
+            }
+         }, 1000);
+      };
+
+      searchdiv.append(input);
+      input.append(searchbox);
+
       row.append(label);
       row.append(btn);
+      row.append(input);
 
       panel.prepend(row);
    }
 });
+
+function accessCuteThemeCSS(value) {
+   const root = document.getRootNode();
+   const kek = `url(${value})`;
+   root.style.setProperty('--background', kek);
+}
 
 function themeReload() {
    var style = document.createElement('link');
