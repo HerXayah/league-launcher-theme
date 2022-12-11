@@ -48,13 +48,13 @@ const observer = new MutationObserver((mutations) => {
          setTimeout(() => {
             if (
                searchbox.value.match(
-                  /(http(s?):)([/|.|\w|\s|-])*\.(?:jpg|gif|png)/g
+                  /(http(s?):)([/|.|\w|\s|-])*\.(?:jpg|gif|jpeg|png)/g
                )
             ) {
                accessCuteThemeCSS(searchbox.value);
-               console.log('valid url');
+               // console.log('valid url');
             } else {
-               console.log('invalid url');
+               //console.log('invalid url');
             }
          }, 1000);
       };
@@ -71,9 +71,28 @@ const observer = new MutationObserver((mutations) => {
 });
 
 function accessCuteThemeCSS(value) {
-   const root = document.getRootNode();
-   const kek = `url(${value})`;
-   root.style.setProperty('--background', kek);
+   const root = document.documentElement;
+   // remove formatting from the url
+   // set the root values
+   // decode url to get the original url
+   root.style.setProperty('--background', `url(${decodeURIComponent(value)})`);
+
+   // ** This part doesnt work. Blame riot. i Have yet to find a way to save stuff in the client **
+
+   // check if the cookie already exists
+   // if it does see if the value is the same as the new value
+   // if it is not the same change the cookie value
+   // if it does not exist create a new cookie
+   if (document.cookie.indexOf('background') >= 0) {
+      if (document.cookie.indexOf(value) < 0) {
+         document.cookie = `background=${value}; expires=Thu, 18 Dec 2022 12:00:00 UTC; path=/`;
+      }
+   } else {
+      document.cookie = `background=${value}; expires=Thu, 18 Dec 2022 12:00:00 UTC; path=/`;
+   }
+
+   //console.log('changed background');
+   //console.log(decodeURIComponent(value));
 }
 
 function themeReload() {
@@ -105,7 +124,6 @@ window.addEventListener('load', () => {
          'afterbegin',
          '<link rel="stylesheet" href="https://thicc-thighs.de/league-css/Cute/cute.theme.css" />'
       );
-   button();
-   Console.clear();
-   Console.log('We injected bois');
+   console.clear();
+   console.log('We injected bois');
 });
