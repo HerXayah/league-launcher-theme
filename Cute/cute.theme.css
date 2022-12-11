@@ -7,6 +7,7 @@
 :root {
    --font-display: 'Dosis', sans-serif !important;
    --font-body: 'Dosis', sans-serif !important;
+   --background: url('https://thicc-thighs.de/stuff/wallpaper.jpg') !important;
 }
 
 /* UI */
@@ -62,14 +63,14 @@
 .yourshop-root,
 .clash-root-background /*,
 .champion-splash-background */ {
-   background-image: url('https://thicc-thighs.de/stuff/wallpaper.jpg') !important;
+   background-image: var(--background);
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
 }
 
 .loot-backdrop .lol-uikit-video-content {
-   background: url(https://thicc-thighs.de/stuff/wallpaper.jpg) !important;
+   background: var(--background);
    display: block;
    box-sizing: border-box;
    width: 180px;
