@@ -48,6 +48,11 @@
    left: 0;
 }
 
+.clash-tab-hub .clash-tab-hub-content {
+   left: 3rem !important;
+   top: 40px;
+}
+
 /*.icon-image {
    content: url('https://thicc-thighs.de/stuff/old_avatar.gif') !important;
 } */
