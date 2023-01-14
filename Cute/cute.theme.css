@@ -104,6 +104,10 @@
    border: 2px white solid;
 }
 
+div[class='vng-age-rating ember-view'] {
+   display: none;
+}
+
 /* Icons */
 
 .currency-be-icon-static {
