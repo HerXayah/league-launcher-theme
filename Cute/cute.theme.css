@@ -65,7 +65,8 @@
 .personalized-offers-root,
 .parties-view,
 .yourshop-root,
-.clash-root-background /*,
+.clash-root-background,
+.clash-root-background-landing /*,
 .champion-splash-background */ {
    background-image: var(--background);
    background-position: center;
