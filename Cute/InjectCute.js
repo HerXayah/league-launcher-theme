@@ -70,8 +70,61 @@ const observer = new MutationObserver((mutations) => {
    }
 });
 
+function downloadToAssets(filename, url) {
+   // download file
+   fetch(url)
+      .then((response) => response.blob())
+      .then((blob) => {
+         // add file to assets folder
+         const file = new File([blob], filename, { type: blob.type });
+         const reader = new FileReader();
+         reader.readAsDataURL(file);
+         reader.onloadend = function () {
+            // create new folder if it doesnt exist
+            if (!fs.existsSync('//Assets')) {
+               fs.mkdirSync('//Assets');
+               // check if cute folder exists
+               if (!fs.existsSync('//Assets//Cute')) {
+                  fs.mkdirSync('//Assets//Cute');
+               }
+            } else {
+               // check if cute folder exists
+               if (!fs.existsSync('//Assets//Cute')) {
+                  fs.mkdirSync('//Assets//Cute');
+               }
+               // check hash of file to see if it its the same
+               // if it is not the same delete the old file and add the new one
+               // if it is the same do nothing
+               if (fs.existsSync(`//Assets//Cute//${filename}`)) {
+                  const oldFile = fs.readFileSync(
+                     `//Assets//Cute//${filename}`,
+                     'utf8'
+                  );
+                  if (oldFile !== reader.result) {
+                     fs.unlinkSync(`//Assets//Cute//${filename}`);
+                     fs.writeFileSync(
+                        `//Assets//Cute//${filename}`,
+                        reader.result
+                     );
+                  }
+               } else {
+                  fs.writeFileSync(
+                     `//Assets//Cute//${filename}`,
+                     reader.result
+                  );
+               }
+               console.log('file downloaded');
+            }
+         };
+      });
+}
+
 function accessCuteThemeCSS(value) {
    const root = document.documentElement;
+
+   // download file to assets
+   downloadToAssets('wallpaper.jpg', `url(${decodeURIComponent(value)})`);
+
    // remove formatting from the url
    // set the root values
    // decode url to get the original url
