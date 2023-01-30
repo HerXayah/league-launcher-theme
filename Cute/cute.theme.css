@@ -99,7 +99,9 @@
    background-size: cover;
 }
 
-.rcp-fe-lol-event-shop-application {
+.rcp-fe-lol-event-shop-application,
+.champ-select-bg-darken,
+.rcp-fe-lol-game-in-progress {
    background: transparent !important;
    background-image: none !important;
    background-color: transparent;
@@ -127,7 +129,8 @@
    /* filter: brightness(0.5); */
 }
 
-.rcp-fe-viewport-sidebar {
+.rcp-fe-viewport-sidebar,
+.group-header {
    background: rgba(22, 22, 22, 0.656) !important;
 }
 
