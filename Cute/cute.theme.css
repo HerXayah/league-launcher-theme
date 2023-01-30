@@ -313,3 +313,46 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
 .purchase-history-page-content-wrapper {
    background-color: rgba(22, 22, 22, 0.726);
 }
+
+.lol-loading-screen-container .lol-loading-screen-lol-icon {
+   background: url('https://thicc-thighs.de/stuff/League/logo.webp');
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+
+.lol-loading-screen-container.lol-loading-screen-default-state {
+   background: url('https://thicc-thighs.de/stuff/League/logo.webp');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.lol-loading-screen-container.lol-loading-screen-default-state
+   .lol-loading-screen-spinner {
+   display: none;
+}
+
+.lol-loading-screen-status-text {
+   text-indent: -9999px;
+}
+
+.lol-loading-screen-status-text::after {
+   content: 'Booting sarah OS...';
+   display: block;
+   text-indent: 0;
+}
+
+.lol-loading-screen-container.lol-loading-screen-default-state
+   .lol-loading-screen-progress-bar-container {
+   width: 1000px;
+}
+
+.lol-loading-screen-container.lol-loading-screen-default-state
+   .lol-loading-screen-progress-bar-progress {
+   background-image: linear-gradient(
+      to right,
+      #eba612 10%,
+      #1815f0 70%,
+      #ff44d6 125%
+   );
+}
