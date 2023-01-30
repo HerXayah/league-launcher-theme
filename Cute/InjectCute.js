@@ -168,11 +168,6 @@ window.addEventListener('load', async () => {
          '<link rel="stylesheet" href="https://thicc-thighs.de/league-css/Cute/cute.theme.css" />'
       );
    console.clear();
-   let val = exports.search;
-   console.log(val().value + ':meow');
-   console.log(val().value + ':meow');
-   console.log(val().value + ':meow');
-   console.log(val().value + ':meow');
    console.log('We injected bois');
 });
 

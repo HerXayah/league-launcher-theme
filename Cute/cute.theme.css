@@ -325,8 +325,9 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
    background-size: contain;
 }
 
-.lol-loading-screen-container.lol-loading-screen-default-state {
-   background: var(--background);
+.lol-loading-screen-container.lol-loading-screen-default-state,
+.match-details-root {
+   background-image: var(--background);
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
