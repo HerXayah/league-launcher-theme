@@ -320,7 +320,7 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
 } */
 
 .lol-loading-screen-container .lol-loading-screen-lol-icon {
-   background: var(--background);
+   background: url('https://thicc-thighs.de/stuff/League/logo2.webp');
    background-repeat: no-repeat;
    background-size: contain;
 }
