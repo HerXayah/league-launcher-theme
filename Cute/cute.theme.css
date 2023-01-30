@@ -102,7 +102,9 @@
 .rcp-fe-lol-event-shop-application,
 .champ-select-bg-darken,
 .rcp-fe-lol-game-in-progress,
-.postgame-background-image {
+.postgame-background-image,
+.clash-root-background-landing,
+.clash-aram-intro-modal {
    background: transparent !important;
    background-image: none !important;
    background-color: transparent;
@@ -160,6 +162,7 @@
 
 .navbar-blur {
    background: transparent !important;
+   backdrop-filter: none !important;
 }
 
 .lol-uikit-dialog-frame {
@@ -216,6 +219,7 @@ div[class='vng-age-rating ember-view'] {
 
 .navbar_backdrop {
    background-color: rgba(22, 22, 22, 0.65) !important;
+   backdrop-filter: blur(5px);
 }
 
 .personalized-offers-content-wrapper {
@@ -310,9 +314,9 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
    border-radius: 0.5rem;
 }
 
-.purchase-history-page-content-wrapper {
-   background-color: rgba(22, 22, 22, 0.726);
-}
+/* .purchase-history-page-content-wrapper {
+   background: rgba(22, 22, 22, 0.726) !important;
+} */
 
 .lol-loading-screen-container .lol-loading-screen-lol-icon {
    background: url('https://thicc-thighs.de/stuff/League/logo.webp');
