@@ -104,7 +104,8 @@
 .rcp-fe-lol-game-in-progress,
 .postgame-background-image,
 .clash-root-background-landing,
-.clash-aram-intro-modal {
+.clash-aram-intro-modal,
+.clash-root-background {
    background: transparent !important;
    background-image: none !important;
    background-color: transparent;
@@ -319,13 +320,13 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
 } */
 
 .lol-loading-screen-container .lol-loading-screen-lol-icon {
-   background: url('https://thicc-thighs.de/stuff/League/logo.webp');
+   background: var(--background);
    background-repeat: no-repeat;
    background-size: contain;
 }
 
 .lol-loading-screen-container.lol-loading-screen-default-state {
-   background: url('https://thicc-thighs.de/stuff/League/logo.webp');
+   background: var(--background);
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
