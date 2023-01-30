@@ -49,6 +49,14 @@
    left: 0;
 }
 
+.lobby-header-overlay {
+   background: linear-gradient(
+      180deg,
+      rgba(22, 22, 22, 0.8) 29.17%,
+      rgba(22, 22, 22, 0) 100%
+   ) !important;
+}
+
 .clash-tab-hub .clash-tab-hub-content {
    left: 3rem !important;
 }
@@ -68,9 +76,12 @@
 .yourshop-root,
 .clash-root-background,
 .clash-root-background-landing,
+.store-backdrop,
 .challenges-collection-component > .background /*,
 .champion-splash-background */ {
    background: transparent;
+   background-image: none;
+   background-color: transparent;
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -86,6 +97,12 @@
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
+}
+
+.rcp-fe-lol-event-shop-application {
+   background: transparent !important;
+   background-image: none !important;
+   background-color: transparent;
 }
 
 .lol-social-sidebar {
@@ -139,7 +156,6 @@
 
 .navbar-blur {
    background: transparent !important;
-   backdrop-filter: none !important;
 }
 
 .lol-uikit-dialog-frame {
@@ -197,11 +213,6 @@ div[class='vng-age-rating ember-view'] {
 .navbar_backdrop {
    background-color: rgba(22, 22, 22, 0.65) !important;
 }
-
-/* .clash-tab-hub, .collections-routes, .__rcp-fe-lol-store iframe, .parties-content, .clash-tab-team-root, .clash-tab-awards, .clash-tab-winners {
-   background-color: rgba(22, 22, 22, 0.65) !important;
-   transition: all 0.2s ease-in-out !important;
-} */
 
 .personalized-offers-content-wrapper {
    padding: 1.5rem;
