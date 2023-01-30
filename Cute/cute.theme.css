@@ -101,7 +101,8 @@
 
 .rcp-fe-lol-event-shop-application,
 .champ-select-bg-darken,
-.rcp-fe-lol-game-in-progress {
+.rcp-fe-lol-game-in-progress,
+.postgame-background-image {
    background: transparent !important;
    background-image: none !important;
    background-color: transparent;
