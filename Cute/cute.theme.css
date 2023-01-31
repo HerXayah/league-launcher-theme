@@ -105,7 +105,8 @@
 .postgame-background-image,
 .clash-root-background-landing,
 .clash-aram-intro-modal,
-.clash-root-background {
+.clash-root-background,
+.postgame-champion-background-wrapper {
    background: transparent !important;
    background-image: none !important;
    background-color: transparent;
@@ -123,6 +124,7 @@
    -webkit-user-select: none;
    background-color: transparent !important;
    background: transparent;
+   backdrop-filter: blur(5px);
 }
 
 #rcp-fe-viewport-root {
@@ -223,6 +225,10 @@ div[class='vng-age-rating ember-view'] {
    backdrop-filter: blur(5px);
 }
 
+.postgame-header-section {
+   backdrop-filter: blur(5px);
+}
+
 .personalized-offers-content-wrapper {
    padding: 1.5rem;
    border-radius: 0.5rem;
@@ -305,8 +311,9 @@ div[class='vng-age-rating ember-view'] {
    margin: 0;
 }
 
-div[data-screen-name='rcp-fe-lol-navigation-screen'] {
-   border: 0;
+div[data-screen-name='rcp-fe-lol-navigation-screen'],
+.postgame-header-container {
+   border: 0 !important;
 }
 
 :host .lol-uikit-flat-button {
