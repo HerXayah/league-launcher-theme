@@ -1,6 +1,6 @@
 //Name: Cute
 //Author: Sarah | â™¡Sarah~#0004
-//Version: 1.1
+//Version: 1.2
 //Comment: fuck rito >:c
 
 const UI = {
@@ -121,7 +121,7 @@ function reloadTheme() {
          .getElementsByTagName('body')[0]
          .insertAdjacentHTML(
             'afterbegin',
-            '<link rel="stylesheet" href="https://thicc-thighs.de/league-css/Cute/cute.theme.css" />'
+            '<link rel="stylesheet" href="https://thicc-thighs.de/league-css/Cute/cute.theme.min.css" />'
          );
       location.reload();
    }
@@ -133,7 +133,7 @@ window.addEventListener('load', async () => {
       .getElementsByTagName('body')[0]
       .insertAdjacentHTML(
          'afterbegin',
-         '<link rel="stylesheet" href="https://thicc-thighs.de/league-css/Cute/cute.theme.css" />'
+         '<link rel="stylesheet" href="https://thicc-thighs.de/league-css/Cute/cute.theme.min.css" />'
       );
    const interval = setInterval(() => {
       const manager = document.getElementById(
