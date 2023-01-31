@@ -21,12 +21,8 @@ https://git.thicc-thighs.de/Sarah/league-launcher-theme
 
 <center>
 
-<div style="scale(0.5)">
-
-![](Img/fhxGZN8.png)
-![](Img/O7550hH.png)
-![](Img/PDHdfhl.png)
-
-</div>
+![](Img/fhxGZN8.png =512x288)
+![](Img/O7550hH.png =512x288)
+![](Img/PDHdfhl.png =512x288)
 
 </center>
