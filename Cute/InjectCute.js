@@ -71,12 +71,6 @@ const injectSettings = (panel) => {
          ),
          UI.Input('https://thicc-thighs.de/stuff/wallpaper.jpg', () => {
             let val = exports.search().value;
-
-            console.log(val + ':meow');
-            console.log(val + ':meow');
-            console.log(val + ':meow');
-            console.log(val + ':meow');
-            console.log(val + ':meow');
             if (
                val.match(/^(http(s?):)([/|.|\w|\s|-])*\.(?:jpg|gif|jpeg|png)$/)
             ) {
@@ -135,6 +129,12 @@ function reloadTheme() {
 
 window.addEventListener('load', async () => {
    // Wait for manager layer
+   document
+      .getElementsByTagName('body')[0]
+      .insertAdjacentHTML(
+         'afterbegin',
+         '<link rel="stylesheet" href="https://thicc-thighs.de/league-css/Cute/cute.theme.css" />'
+      );
    const interval = setInterval(() => {
       const manager = document.getElementById(
          'lol-uikit-layer-manager-wrapper'
@@ -161,12 +161,7 @@ window.addEventListener('load', async () => {
          });
       }
    }, 500);
-   document
-      .getElementsByTagName('body')[0]
-      .insertAdjacentHTML(
-         'afterbegin',
-         '<link rel="stylesheet" href="https://thicc-thighs.de/league-css/Cute/cute.theme.css" />'
-      );
+
    console.clear();
    console.log('We injected bois');
 });
