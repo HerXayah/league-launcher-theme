@@ -3,7 +3,7 @@
 ## How to install?
 
 -  Download https://github.com/nomi-san/league-loader/
--  Put InjectCute.js into Plugins Folder
+-  Put InjectCute.min.js into Plugins Folder
 -  Profit
 
 P.S Rito.
@@ -21,10 +21,8 @@ https://git.thicc-thighs.de/Sarah/league-launcher-theme
 
 <center>
 
-![](https://i.imgur.com/E6gfg9z.png)
-![](https://i.imgur.com/6wN60tF.png)
-![](https://i.imgur.com/n2TSVr5.png)
-![](https://i.imgur.com/s6Wtjih.png)
-![](https://i.imgur.com/xIjOxgC.png)
+![](Img/fhxGZN8.png)
+![](Img/O7550hH.png)
+![](Img/PDHdfhl.png)
 
 </center>
