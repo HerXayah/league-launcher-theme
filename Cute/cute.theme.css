@@ -40,7 +40,6 @@
 }
 
 .chat-input {
-   opacity: 0 !important;
    border: none !important;
    border-radius: 0.5rem !important;
 }
