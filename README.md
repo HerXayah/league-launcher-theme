@@ -7,6 +7,10 @@
 -  Put cute.themes.config.json into Plugins Folder aswell
 -  Profit
 
+## Features
+
+-  It is possible to add an Image URL in the JSON File to have a different background on load
+
 P.S Rito.
 
 If you want this removed, dont ban me instantly. just message me.
