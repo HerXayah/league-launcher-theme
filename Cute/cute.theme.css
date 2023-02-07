@@ -20,15 +20,29 @@
 }
 
 .lpjjXv {
-   background-color: rgba(22, 22, 22, 0.726);
-   border: 1px solid rgba(22, 22, 22, 0.726);
-   border-radius: 0.5rem;
+   background-color: rgba(22, 22, 22, 0.726) !important;
+   border: 1px solid rgba(22, 22, 22, 0.726) !important;
+   border-radius: 0.5rem !important;
+}
+
+.chat-room-input {
+   box-shadow: none !important;
+   padding: 10px 11px !important;
+   background-color: rgba(22, 22, 22, 0.526) !important;
+   border: 0.1px solid rgb(255, 255, 255, 0.5) !important;
+   border-radius: 1rem !important;
 }
 
 /* Patch Notes */
 
 .article-scrollable-body {
    padding: 1rem;
+}
+
+.chat-input {
+   opacity: 0 !important;
+   border: none !important;
+   border-radius: 0.5rem !important;
 }
 
 .lcu-article-container .article-scrollable-body {
@@ -106,7 +120,8 @@
 .clash-root-background-landing,
 .clash-aram-intro-modal,
 .clash-root-background,
-.postgame-champion-background-wrapper {
+.postgame-champion-background-wrapper,
+.stats-backdrop {
    background: transparent !important;
    background-image: none !important;
    background-color: transparent;

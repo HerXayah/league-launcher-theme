@@ -4,6 +4,7 @@
 
 -  Download https://github.com/nomi-san/league-loader/
 -  Put InjectCute.min.js into Plugins Folder
+-  Put cute.themes.config.json into Plugins Folder aswell
 -  Profit
 
 P.S Rito.

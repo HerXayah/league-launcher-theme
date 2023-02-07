@@ -3,6 +3,9 @@
 //Version: 1.2
 //Comment: fuck rito >:c
 
+let config = require('./cute.theme.config.json');
+let backgroundImg = config.background.image;
+
 const UI = {
    Row: (childs) => {
       const row = document.createElement('div');
@@ -69,7 +72,7 @@ const injectSettings = (panel) => {
             },
             UI.Button('Open plugins folder', () => window.openPluginsFolder())
          ),
-         UI.Input('https://thicc-thighs.de/stuff/wallpaper.jpg', () => {
+         UI.Input(backgroundImg, () => {
             let val = exports.search().value;
             if (
                val.match(/^(http(s?):)([/|.|\w|\s|-])*\.(?:jpg|gif|jpeg|png)$/)
@@ -83,6 +86,19 @@ const injectSettings = (panel) => {
    );
 };
 
+function addToJson(value) {
+   backgroundImg = value;
+   //console.log(config);
+}
+
+function checkJSON() {
+   // check if background is empty or has a value already
+   if (backgroundImg == '') {
+      // if it is empty set it to the default
+      backgroundImg = 'https://thicc-thighs.de/stuff/wallpaper.jpg';
+   }
+}
+
 ///^(http(s?):)([/|.|\w|\s|-])*\.(?:jpg|gif|png)$/
 
 function accessCuteThemeCSS(value) {
@@ -90,7 +106,10 @@ function accessCuteThemeCSS(value) {
    // remove formatting from the url
    // set the root values
    // decode url to get the original url
-   root.style.setProperty('--background', `url(${decodeURIComponent(value)})`);
+
+   addToJson(decodeURIComponent(value));
+
+   root.style.setProperty('--background-image', `url(${value})`);
 
    // ** This part doesnt work. Blame riot. i Have yet to find a way to save stuff in the client **
 
@@ -128,6 +147,8 @@ function reloadTheme() {
 }
 
 window.addEventListener('load', async () => {
+   checkJSON();
+
    // Wait for manager layer
    document
       .getElementsByTagName('body')[0]
