@@ -146,7 +146,7 @@ function reloadTheme() {
          .getElementsByTagName('body')[0]
          .insertAdjacentHTML(
             'afterbegin',
-            '<link rel="stylesheet" href="https://thicc-thighs.de/league-css/Cute/cute.theme.min.css" />'
+            '<link rel="stylesheet" href="https://thicc-thighs.de/league-css/Cute/cute.theme-min.css" />'
          );
       location.reload();
    }
@@ -158,7 +158,7 @@ window.addEventListener('load', async () => {
       .getElementsByTagName('body')[0]
       .insertAdjacentHTML(
          'afterbegin',
-         '<link rel="stylesheet" href="https://thicc-thighs.de/league-css/Cute/cute.theme.min.css" />'
+         '<link rel="stylesheet" href="https://thicc-thighs.de/league-css/Cute/cute.theme-min.css" />'
       );
    if (checkIfPopulated()) {
       accessCuteThemeCSS(backgroundImg);
