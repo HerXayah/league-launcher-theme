@@ -1,0 +1,42 @@
+.clash-root-background-landing,
+.hold-leave,
+.collections-application,
+.clash-root-background-landing,
+.__rcp-fe-lol-store,
+.loot-backdrop.background-static,
+.personalized-offers-root,
+.parties-view,
+.yourshop-root,
+.clash-root-background,
+.clash-root-background-landing,
+.store-backdrop,
+.challenges-collection-component > .background,
+.loot-backdrop .lol-uikit-video-content,
+.rcp-fe-lol-event-shop-application,
+.champ-select-bg-darken,
+.rcp-fe-lol-game-in-progress,
+.postgame-background-image,
+.clash-root-background-landing,
+.clash-aram-intro-modal,
+.clash-root-background,
+.postgame-champion-background-wrapper,
+.stats-backdrop,
+.rcp-fe-viewport-sidebar {
+   background-color: transparent !important;
+   background: transparent !important;
+   backdrop-filter: none !important;
+   filter: none !important;
+}
+
+/* body {
+   background-color: rgba(255, 255, 255, 0.4) !important;
+   background: rgba(255, 255, 255, 0.1) !important;
+} */
+
+body,
+html {
+   background-color: transparent !important;
+   background: transparent !important;
+   backdrop-filter: none !important;
+   filter: none !important;
+}
