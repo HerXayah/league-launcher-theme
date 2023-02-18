@@ -36,7 +36,8 @@
 .cdp-backdrop:after,
 .clash-logo-border,
 .group-header,
-.ember-text-field {
+.ember-text-field,
+.parties-background-mask {
    background-color: transparent !important;
    background: transparent !important;
    backdrop-filter: none !important;
@@ -88,4 +89,8 @@ html {
 
 .navigation-root-component {
    border-bottom: none !important;
+}
+
+.lol-uikit-background-switcher-image {
+   display: none !important;
 }
