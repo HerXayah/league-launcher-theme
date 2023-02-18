@@ -85,3 +85,7 @@ html {
 .ember-text-field {
    padding-left: 5px !important;
 }
+
+.navigation-root-component {
+   border-bottom: none !important;
+}
