@@ -2,6 +2,10 @@
 //Author: Sarah | â™¡Sarah~#0004
 //Version: 0.1 Alpha
 
+function acrylicMagic() {
+   window.Effect.apply('unified', { color: '#4446' });
+}
+
 const UI = {
    Row: (childs) => {
       const row = document.createElement('div');
@@ -91,6 +95,7 @@ function reloadTheme() {
 
 window.addEventListener('load', async () => {
    // Wait for manager layer
+   acrylicMagic();
    document
       .getElementsByTagName('body')[0]
       .insertAdjacentHTML(
