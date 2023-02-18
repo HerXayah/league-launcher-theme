@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+
+:root {
+   --font-display: 'Nunito Sans', sans-serif !important;
+   --font-body: 'Nunito Sans', sans-serif !important;
+}
+
 .clash-root-background-landing,
 .hold-leave,
 .collections-application,
@@ -24,7 +31,12 @@
 .rcp-fe-viewport-sidebar,
 .loot-loading-screen,
 .lol-social-sidebar,
-.cdp-backdrop.progression:after {
+.cdp-backdrop.progression:after,
+.cdp-backdrop-component,
+.cdp-backdrop:after,
+.clash-logo-border,
+.group-header,
+.ember-text-field {
    background-color: transparent !important;
    background: transparent !important;
    backdrop-filter: none !important;
@@ -59,4 +71,17 @@ html {
 
 .cdp-progression-header {
    border: none !important;
+}
+
+.cdp-backdrop-img {
+   opacity: 0.4 !important;
+}
+
+.group-separator {
+   display: none !important;
+   border: none !important;
+}
+
+.ember-text-field {
+   padding-left: 5px !important;
 }
