@@ -21,7 +21,10 @@
 .clash-root-background,
 .postgame-champion-background-wrapper,
 .stats-backdrop,
-.rcp-fe-viewport-sidebar {
+.rcp-fe-viewport-sidebar,
+.loot-loading-screen,
+.lol-social-sidebar,
+.cdp-backdrop.progression:after {
    background-color: transparent !important;
    background: transparent !important;
    backdrop-filter: none !important;
@@ -39,4 +42,21 @@ html {
    background: transparent !important;
    backdrop-filter: none !important;
    filter: none !important;
+}
+
+/* Extra Shidd */
+
+.champion-thumbnail,
+.champion-image-container,
+.champion-mastery-info {
+   border-radius: 1rem !important;
+   border: none !important;
+}
+
+.champion-mastery-info {
+   top: 10.4rem !important;
+}
+
+.cdp-progression-header {
+   border: none !important;
 }

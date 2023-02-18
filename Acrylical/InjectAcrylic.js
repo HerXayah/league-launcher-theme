@@ -3,7 +3,8 @@
 //Version: 0.1 Alpha
 
 function acrylicMagic() {
-   window.Effect.apply('unified', { color: '#fff00' });
+   window.Effect.apply('unified', { color: '#6001' });
+   //window.Effect.apply('unified', { color: '#fff00' });
    // btw the color is blue green red alpha
 }
 
