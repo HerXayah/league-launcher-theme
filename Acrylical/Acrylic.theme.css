@@ -39,7 +39,9 @@
 .ember-text-field,
 .parties-background-mask,
 .lol-loading-screen-container.lol-loading-screen-default-state,
-.match-details-root {
+.match-details-root,
+.champion-select,
+.champion-splash-background {
    background-color: transparent !important;
    background: transparent !important;
    backdrop-filter: none !important;
