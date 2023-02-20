@@ -37,7 +37,9 @@
 .clash-logo-border,
 .group-header,
 .ember-text-field,
-.parties-background-mask {
+.parties-background-mask,
+.lol-loading-screen-container.lol-loading-screen-default-state,
+.match-details-root {
    background-color: transparent !important;
    background: transparent !important;
    backdrop-filter: none !important;
@@ -93,4 +95,40 @@ html {
 
 .lol-uikit-background-switcher-image {
    display: none !important;
+}
+
+.lol-loading-screen-container .lol-loading-screen-lol-icon {
+   background: url('https://thicc-thighs.de/stuff/League/logo.png');
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+
+.lol-loading-screen-container.lol-loading-screen-default-state
+   .lol-loading-screen-spinner {
+   display: none;
+}
+
+.lol-loading-screen-status-text {
+   text-indent: -9999px;
+}
+
+.lol-loading-screen-status-text::after {
+   content: 'Chopping some wood...';
+   display: block;
+   text-indent: 0;
+}
+
+.lol-loading-screen-container.lol-loading-screen-default-state
+   .lol-loading-screen-progress-bar-container {
+   width: 1000px;
+}
+
+.lol-loading-screen-container.lol-loading-screen-default-state
+   .lol-loading-screen-progress-bar-progress {
+   background-image: linear-gradient(
+      to right,
+      #f1ede4 10%,
+      #1815f0 70%,
+      #db0824 125%
+   );
 }
