@@ -142,3 +142,11 @@ html {
 div[data-screen-name='rcp-fe-lol-navigation-screen'] {
    border-top: none !important;
 }
+
+.lobby-header-overlay {
+   display: none !important;
+}
+
+.navbar-blur {
+   background: transparent !important;
+}
