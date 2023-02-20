@@ -138,3 +138,7 @@ html {
 .lol-social-identity .lower-details lol-social-availability-hitbox {
    margin: 3px 5px 0 1.5px !important;
 }
+
+div[data-screen-name='rcp-fe-lol-navigation-screen'] {
+   border-top: none !important;
+}
