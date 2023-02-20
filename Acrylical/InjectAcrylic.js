@@ -89,7 +89,7 @@ function reloadTheme() {
          .getElementsByTagName('body')[0]
          .insertAdjacentHTML(
             'afterbegin',
-            '<link rel="stylesheet" href="https://thicc-thighs.de/league-css/AcrylicalAcrylic.theme.min.css" />'
+            '<link rel="stylesheet" href="https://thicc-thighs.de/league-css/Acrylical/Acrylic.theme.min.css" />'
          );
       location.reload();
    }
@@ -102,7 +102,7 @@ window.addEventListener('load', async () => {
       .getElementsByTagName('body')[0]
       .insertAdjacentHTML(
          'afterbegin',
-         '<link rel="stylesheet" href="https://thicc-thighs.de/league-css/AcrylicalAcrylic.theme.min.css" />'
+         '<link rel="stylesheet" href="https://thicc-thighs.de/league-css/Acrylical/Acrylic.theme.min.css" />'
       );
    const interval = setInterval(() => {
       const manager = document.getElementById(
