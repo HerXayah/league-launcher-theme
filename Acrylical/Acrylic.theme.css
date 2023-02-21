@@ -42,7 +42,12 @@
 .match-details-root,
 .champion-select,
 .champion-splash-background,
-#ember7563 {
+#ember7563,
+.loading-tab::after,
+.loot-milestones-tracker-wrapper,
+.rcp-fe-lol-tft-application-background,
+.tft-home-footer-bg,
+.tft-hub-footer-bg {
    background-color: transparent !important;
    background: transparent !important;
    backdrop-filter: none !important;
@@ -107,6 +112,14 @@ html {
    background-size: contain;
 }
 
+/* SHADOW ROOOT REEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE */
+
+.owned-filter {
+   border: none !important;
+}
+
+/* REEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE */
+
 .lol-loading-screen-container.lol-loading-screen-default-state
    .lol-loading-screen-spinner {
    display: none;
@@ -145,7 +158,9 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
    border-top: none !important;
 }
 
-.lobby-header-overlay {
+.lobby-header-overlay,
+.loading-content,
+.bottom-gradient {
    display: none !important;
 }
 
