@@ -152,3 +152,7 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
 .navbar-blur {
    background: transparent !important;
 }
+
+#rcp-fe-viewport-root {
+   border: none !important;
+}
