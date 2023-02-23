@@ -166,7 +166,8 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
 
 .lobby-header-overlay,
 .loading-content,
-.bottom-gradient {
+.bottom-gradient,
+.event-shop-page-header-vertical-divider {
    display: none !important;
 }
 
@@ -181,4 +182,18 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
 .event-shop-index-header,
 .event-shop-progression {
    box-shadow: none !important;
+}
+
+.event-shop-token-shop-header,
+.event-shop-page-header,
+.event-shop-progression-info {
+   box-shadow: none !important;
+   border: none !important;
+}
+
+.event-shop-category-nav-bar,
+.event-shop-offer-card,
+.event-shop-reward-track-wrapper {
+   border: none !important;
+   background: none !important;
 }
