@@ -47,7 +47,13 @@
 .loot-milestones-tracker-wrapper,
 .rcp-fe-lol-tft-application-background,
 .tft-home-footer-bg,
-.tft-hub-footer-bg {
+.tft-hub-footer-bg,
+.event-shop-index,
+.event-shop-page-header,
+.event-shop-progression,
+.event-shop-progression-info,
+.event-shop-reward-track-wrapper,
+.event-shop-token-shop-header {
    background-color: transparent !important;
    background: transparent !important;
    backdrop-filter: none !important;
@@ -170,4 +176,9 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
 
 #rcp-fe-viewport-root {
    border: none !important;
+}
+
+.event-shop-index-header,
+.event-shop-progression {
+   box-shadow: none !important;
 }
