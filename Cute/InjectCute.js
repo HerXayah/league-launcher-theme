@@ -75,7 +75,7 @@ const injectSettings = (panel) => {
             UI.Button('Open plugins folder', () => window.openPluginsFolder())
          ),
          UI.Input(backgroundCheck(), () => {
-            let val = exports.search().value;
+            let val = module.exports.search().value;
             if (
                val.match(/^(http(s?):)([/|.|\w|\s|-])*\.(?:jpg|gif|jpeg|png)$/)
             ) {
