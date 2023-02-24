@@ -3,8 +3,10 @@
 //Version: 1.2
 //Comment: fuck rito >:c
 
-const config = require('./cute.theme.config.json');
+import config from './cute.theme.config.json';
 let backgroundImg = config.background.image;
+
+const module = { exports: {} };
 
 const UI = {
    Row: (childs) => {
@@ -54,7 +56,7 @@ const UI = {
             return searchbox.value;
          },
       };
-      exports.search = () => input;
+      module.exports.search = () => input;
       origIn.appendChild(searchbox);
       return origIn;
    },
