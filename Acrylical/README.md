@@ -1,5 +1,7 @@
 # league-launcher-theme
 
+Works with both 1.0.1 and 0.6.0 of league loader
+
 ## How to install?
 
 -  Download https://github.com/nomi-san/league-loader/

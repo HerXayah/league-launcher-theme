@@ -1,11 +1,12 @@
 # league-launcher-theme
 
+Should work with 1.0.1 and 0.6.0 of League Loader
+
 ## How to install?
 
 -  Download https://github.com/nomi-san/league-loader/
 -  Make sure League Loader is 1.0.1
 -  Put InjectCute.min.js into Plugins Folder
--  Put cute.themes.config.json into Plugins Folder aswell (Wont work if its not there even if u dont use it)
 -  Profit
 
 ## Features
