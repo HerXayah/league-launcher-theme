@@ -8,6 +8,13 @@ function acrylicMagic() {
    // btw the color is blue green red alpha
 }
 
+const nutellaSchmecktKake = document
+   .getElementsByTagName('body')[0]
+   .insertAdjacentHTML(
+      'afterbegin',
+      '<link rel="stylesheet" href="https://thicc-thighs.de/league-css/Acrylical/Acrylic.theme.min.css" />'
+   );
+
 const UI = {
    Row: (childs) => {
       const row = document.createElement('div');
@@ -85,12 +92,7 @@ function reloadTheme() {
          document.styleSheets[i].disabled = true;
       }
       //
-      document
-         .getElementsByTagName('body')[0]
-         .insertAdjacentHTML(
-            'afterbegin',
-            '<link rel="stylesheet" href="https://thicc-thighs.de/league-css/Acrylical/Acrylic.theme.min.css" />'
-         );
+      nutellaSchmecktKake;
       location.reload();
    }
 }
@@ -98,12 +100,7 @@ function reloadTheme() {
 window.addEventListener('load', async () => {
    // Wait for manager layer
    acrylicMagic();
-   document
-      .getElementsByTagName('body')[0]
-      .insertAdjacentHTML(
-         'afterbegin',
-         '<link rel="stylesheet" href="https://thicc-thighs.de/league-css/Acrylical/Acrylic.theme.min.css" />'
-      );
+   nutellaSchmecktKake;
    const interval = setInterval(() => {
       const manager = document.getElementById(
          'lol-uikit-layer-manager-wrapper'

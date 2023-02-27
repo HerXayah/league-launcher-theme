@@ -3,10 +3,10 @@
 //Version: 1.2
 //Comment: fuck rito >:c
 
-import config from './cute.theme.config.json';
-let backgroundImg = config.background.image;
+var module = { exports: {} };
 
-const module = { exports: {} };
+let backgroundImg = DataStore.get('background');
+let root = document.documentElement;
 
 const UI = {
    Row: (childs) => {
@@ -82,6 +82,14 @@ const injectSettings = (panel) => {
                accessCuteThemeCSS(val);
             }
          }),
+         UI.Button('Reset background', () => {
+            DataStore.remove('background');
+            root.style.setProperty(
+               '--background',
+               `linear-gradient(rgba(22, 22, 22, 0.6), rgba(22, 22, 22, 0.2)), url(https://thicc-thighs.de/stuff/wallpaper.jpg)`
+            );
+         }),
+         document.createElement('br'),
          UI.Button('Reload theme', () => reloadTheme()),
          document.createElement('br'),
       ])
@@ -90,14 +98,14 @@ const injectSettings = (panel) => {
 
 function backgroundCheck() {
    if (checkIfPopulated()) {
-      return backgroundImg;
+      return DataStore.get('background');
    } else {
       return 'https://thicc-thighs.de/stuff/wallpaper.jpg';
    }
 }
 
 function checkIfPopulated() {
-   if (backgroundImg != '') {
+   if (DataStore.has('background')) {
       return true;
    } else {
       return false;
@@ -107,10 +115,20 @@ function checkIfPopulated() {
 ///^(http(s?):)([/|.|\w|\s|-])*\.(?:jpg|gif|png)$/
 
 function accessCuteThemeCSS(value) {
-   const root = document.documentElement;
    // remove formatting from the url
    // set the root values
    // decode url to get the original url
+   if (value == 'https://thicc-thighs.de/stuff/wallpaper.webp') {
+      DataStore.remove('background');
+   } else {
+      DataStore.set('background', decodeURIComponent(value));
+      root.style.setProperty(
+         '--background',
+         `linear-gradient(rgba(22, 22, 22, 0.6), rgba(22, 22, 22, 0.2)), url(${decodeURIComponent(
+            value
+         )})`
+      );
+   }
 
    root.style.setProperty(
       '--background',
