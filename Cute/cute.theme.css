@@ -438,3 +438,10 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
    border: none !important;
    background: none !important;
 }
+
+.champion-thumbnail,
+.champion-image-container,
+.champion-mastery-info {
+   border-radius: 2rem 0rem 2rem !important;
+   border: none !important;
+}
