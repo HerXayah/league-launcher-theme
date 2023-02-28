@@ -6,7 +6,8 @@ Should work with 1.0.1 and 0.6.0 of League Loader
 
 -  Download https://github.com/nomi-san/league-loader/
 -  Make sure League Loader is 1.0.1
--  Put InjectCute.min.js into Plugins Folder
+-  Create a folder in Plugins with whatever name
+-  Put InjectCute.min.js into the folder and rename it to index.js
 -  Profit
 
 ## Features
