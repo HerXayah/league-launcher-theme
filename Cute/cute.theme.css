@@ -445,3 +445,7 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
    border-radius: 2rem 0rem 2rem !important;
    border: none !important;
 }
+
+#background-ambient {
+   display: none !important;
+}
