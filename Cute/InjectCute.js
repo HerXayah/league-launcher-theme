@@ -86,7 +86,7 @@ const injectSettings = (panel) => {
             DataStore.remove('background');
             root.style.setProperty(
                '--background',
-               `linear-gradient(rgba(22, 22, 22, 0.6), rgba(22, 22, 22, 0.2)), url(https://thicc-thighs.de/stuff/wallpaper.webp)`
+               `linear-gradient(rgba(22, 22, 22, 0.6), rgba(22, 22, 22, 0.2)), url(https://thicc-thighs.de/stuff/League/wallpaper.webp)`
             );
          }),
          document.createElement('br'),
