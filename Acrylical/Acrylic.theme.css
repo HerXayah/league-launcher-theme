@@ -191,6 +191,11 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
    border: none !important;
 }
 
+.champion-select,
+.champion-select, .uikit-background-switcher {
+   background: none !important;
+}
+
 .event-shop-category-nav-bar,
 .event-shop-offer-card,
 .event-shop-reward-track-wrapper {
