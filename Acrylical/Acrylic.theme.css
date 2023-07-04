@@ -206,3 +206,7 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
 #background-ambient {
    display: none !important;
 }
+
+.v2-parties-invite-info-panel {
+  background: rgb(0 0 0 / 18%) !important;
+}
