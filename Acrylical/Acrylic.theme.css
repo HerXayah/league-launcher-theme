@@ -198,7 +198,9 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
 
 .event-shop-category-nav-bar,
 .event-shop-offer-card,
-.event-shop-reward-track-wrapper {
+.event-shop-reward-track-wrapper,
+.custom-invite-header,
+.parties-invite-info-panel-body {
    border: none !important;
    background: none !important;
 }
@@ -207,6 +209,15 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
    display: none !important;
 }
 
-.v2-parties-invite-info-panel {
+.v2-parties-invite-info-panel,
+.parties-invite-info-panel {
   background: rgb(0 0 0 / 18%) !important;
+}
+
+.parties-invite-info-panel {
+   border-radius: 10px;
+}
+
+#ember10585 {
+   top: 330px !important;
 }
