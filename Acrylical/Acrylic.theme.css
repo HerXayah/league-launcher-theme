@@ -176,6 +176,11 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
    width: 0 !important;
 }
 
+.style-profile-backdrop-container,
+.background-vignette-container {
+   display: none !important;
+}
+
 #rcp-fe-viewport-root {
    border: none !important;
 }
