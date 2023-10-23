@@ -13,6 +13,14 @@ P.S Rito.
 
 If you want this removed, dont ban me instantly. just message me.
 
+## How to customize Fonts?
+
+-  Open Settings
+-  Input a font of choice into the Box
+-  Example: `Roboto;300`
+
+Font must be from Google Fonts <3
+
 ## Bugs?
 
 If your background is broken, turn on LowSpecMode
