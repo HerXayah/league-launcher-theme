@@ -90,7 +90,7 @@ const injectSettings = (panel) => {
         UI.Button('Open plugins folder', () => window.openPluginsFolder())
       ),
       UI.Input(backgroundCheck(), () => {
-        let val = module.exports.search().value;
+        let val = this.search().value;
         accessCSS(getFontURL(val, fam));
       }),
       document.createElement('br'),
@@ -172,7 +172,9 @@ function backgroundCheck() {
   if (checkIfPopulated()) {
     return DataStore.get('font');
   } else {
-    return 'https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap';
+    DataStore.set('font', 'https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+    DataStore.set('fontfam', 'Roboto');
+    return DataStore.get('font');
   }
 }
 
