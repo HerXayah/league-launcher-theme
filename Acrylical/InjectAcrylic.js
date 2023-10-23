@@ -2,7 +2,7 @@
 //Author: Sarah | â™¡Sarah~#0004
 //Version: 0.1 Alpha
 
-function acrylicMagic() {
+async function acrylicMagic() {
   window.Effect.apply('unified', { color: '#6001' });
   //window.Effect.apply('unified', { color: '#fff00' });
   // btw the color is blue green red alpha
@@ -185,8 +185,9 @@ function checkIfPopulated() {
 }
 
 window.addEventListener('load', async () => {
-  acrylicMagic();
+  await acrylicMagic();
   DataStore.set('AcrylStatus', 'false');
+  await backgroundCheck();
   // Wait for manager layer
   document
     .getElementsByTagName('body')[0]
