@@ -90,11 +90,9 @@ const injectSettings = (panel) => {
         UI.Button('Open plugins folder', () => window.openPluginsFolder())
       ),
       UI.Input(backgroundCheck(), () => {
-        let val = this.search().value;
+        let val = module.exports.search().value;
         accessCSS(getFontURL(val, fam));
       }),
-      document.createElement('br'),
-      UI.Button('Reload theme', () => reloadTheme()),
       document.createElement('br'),
     ])
   );
