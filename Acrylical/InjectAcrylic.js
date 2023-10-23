@@ -57,12 +57,15 @@ const UI = {
     searchbox.oninput = onChange;
     let input = {
       get value() {
+        let valuesplit = [];
+        try {
+          valuesplit = searchbox.value.split(';');
+        } catch (e) {
+          //console.log(e);
+        }
         //console.log(searchbox.value);
-        // if value does not include ; and is short than 3 or bigger than 3 letters after the ;, do nothing
-        if (
-          !searchbox.value.includes(';') ||
-          searchbox.value.split(';')[1].length !== 3
-        ) {
+        // if value does not include ; and contains only numbers, return
+        if (!searchbox.value.includes(';') && !isNaN(valuesplit[1])) {
           //console.log('NONE');
           return;
         } else {
@@ -103,16 +106,26 @@ function getFontURL(val) {
   // e.g  https://fonts.googleapis.com/css2?family={fontfamily}:wght@{weight}&display=swap
   // return the url
   let input = val;
-  let split = input.split(';');
+  let split = [];
+  try {
+    split = input.split(';');
+  } catch (e) {
+    //console.log(e);
+  }
   let family = split[0];
   //console.log(family) + ' is the family';
   fam = family;
   DataStore.set('fontfam', family);
-  let weight = split[1];
+  let weight = [];
 
-  // if weight is not 3 letters long, return;
-  if (weight.length !== 3) {
-    return 'error';
+  try {
+    weight = split[1];
+    // if weight is not numbers and a 100, 200, 300 to 900, return error
+    if (!/^(100|200|300|400|500|600|700|800|900)$/.test(weight)) {
+      return 'error';
+    }
+  } catch (e) {
+    //console.log(e);
   }
 
   let url = `https://fonts.googleapis.com/css2?family=${family}:wght@${weight}&display=swap`;
@@ -170,7 +183,10 @@ function backgroundCheck() {
   if (checkIfPopulated()) {
     return DataStore.get('font');
   } else {
-    DataStore.set('font', 'https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+    DataStore.set(
+      'font',
+      'https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'
+    );
     DataStore.set('fontfam', 'Roboto');
     return DataStore.get('font');
   }
