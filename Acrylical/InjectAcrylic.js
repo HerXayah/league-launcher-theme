@@ -10,9 +10,6 @@ function acrylicMagic() {
 
 var module = { exports: {} };
 
-let font = DataStore.get('font');
-let head = document.getElementsByTagName('head')[0];
-let root = document.documentElement;
 var fam = 'none';
 
 const UI = {
@@ -54,7 +51,7 @@ const UI = {
     origIn.style.marginBottom = '12px';
     const searchbox = document.createElement('input');
     searchbox.type = 'url';
-    searchbox.placeholder = "(GoogleFont);(Font Weight)";
+    searchbox.placeholder = '(GoogleFont);(Font Weight)';
     searchbox.style.width = '200px';
     searchbox.name = 'name';
     searchbox.oninput = onChange;
@@ -133,8 +130,7 @@ function accessCSS(value) {
   // if value is empty return
   if (value === '') {
     return;
-  }
-  else {
+  } else {
     //console.log(DataStore.get('font') + ' is the font');
 
     if (DataStore.get('AcrylStatus') === 'false') {
@@ -165,7 +161,10 @@ function accessCSS(value) {
       );
 
     //console.log(fam + ' is the fo 2nt');
-    document.documentElement.style.setProperty('--font', `${DataStore.get('fontfam')}, sans-serif`);
+    document.documentElement.style.setProperty(
+      '--font',
+      `${DataStore.get('fontfam')}, sans-serif`
+    );
   }
 }
 
@@ -196,15 +195,14 @@ window.addEventListener('load', async () => {
       '<link rel="stylesheet" href="https://thicc-thighs.de/league-css/Acrylical/Acrylic.theme.min.css" />'
     );
   if (checkIfPopulated()) {
-   //console.log('We injected bois 23223232');
-   fam = DataStore.get('fontfam');
-   let val = DataStore.get('font');
-   //console.log(val);
-   try {
-   accessCSS(val);
-   } catch (e) {
-   //console.log(e);
-   }
+    fam = DataStore.get('fontfam');
+    let val = DataStore.get('font');
+    //console.log(val);
+    try {
+      accessCSS(val);
+    } catch (e) {
+      //console.log(e);
+    }
   }
   const interval = setInterval(() => {
     const manager = document.getElementById('lol-uikit-layer-manager-wrapper');
