@@ -22,9 +22,6 @@ If you want this removed, dont ban me instantly. just message me.
 
 If your background is broken, turn on LowSpecMode
 
-Mirrored into
-https://git.thicc-thighs.de/Sarah/league-launcher-theme
-
 ## Images
 
 <center>

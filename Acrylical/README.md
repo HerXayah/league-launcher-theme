@@ -25,9 +25,6 @@ Font must be from Google Fonts <3
 
 If your background is broken, turn on LowSpecMode
 
-Mirrored into
-https://git.thicc-thighs.de/Sarah/league-launcher-theme
-
 ## Images
 
 <center>
