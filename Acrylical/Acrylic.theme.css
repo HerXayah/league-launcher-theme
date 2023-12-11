@@ -251,7 +251,8 @@ html {
   filter: none !important;
 }
 
-.cdp-progression-header {
+.cdp-progression-header,
+#rcp-fe-viewport-root {
   border: none !important;
 }
 
@@ -259,17 +260,14 @@ html {
   opacity: 0.4 !important;
 }
 
-.group-separator {
+.group-separator,
+.currency-rp-top-up {
   display: none !important;
   border: none !important;
 }
 
 div[data-screen-name='rcp-fe-lol-navigation-screen'] {
   border-top: none !important;
-}
-
-#rcp-fe-viewport-root {
-  border: none !important;
 }
 
 .lol-loading-screen-lol-icon,
@@ -311,7 +309,8 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
 .event-shop-offer-card,
 .event-shop-reward-track-wrapper,
 .custom-invite-header,
-.parties-invite-info-panel-body {
+.parties-invite-info-panel-body,
+.currency-rp-container-top-up-enabled {
   border: none !important;
   background: none !important;
 }
