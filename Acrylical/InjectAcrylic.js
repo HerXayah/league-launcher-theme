@@ -209,7 +209,7 @@ window.addEventListener('load', async () => {
     .getElementsByTagName('body')[0]
     .insertAdjacentHTML(
       'afterbegin',
-      '<link rel="stylesheet" href="https://thicc-thighs.de/league-css/Acrylical/Acrylic.theme.min.css" />'
+      '<link rel="stylesheet" href="https://egirl.ing/league-css/Acrylical/Acrylic.theme.min.css" />'
     );
   if (checkIfPopulated()) {
     fam = DataStore.get('fontfam');

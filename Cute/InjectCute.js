@@ -86,7 +86,7 @@ const injectSettings = (panel) => {
             DataStore.remove('background');
             root.style.setProperty(
                '--background',
-               `linear-gradient(rgba(22, 22, 22, 0.6), rgba(22, 22, 22, 0.2)), url(https://thicc-thighs.de/stuff/League/wallpaper.webp)`
+               `linear-gradient(rgba(22, 22, 22, 0.6), rgba(22, 22, 22, 0.2)), url(https://egirl.ing/stuff/League/wallpaper.webp)`
             );
          }),
          document.createElement('br'),
@@ -100,7 +100,7 @@ function backgroundCheck() {
    if (checkIfPopulated()) {
       return DataStore.get('background');
    } else {
-      return 'https://thicc-thighs.de/stuff/wallpaper.jpg';
+      return 'https://egirl.ing/stuff/wallpaper.jpg';
    }
 }
 
@@ -118,7 +118,7 @@ function accessCuteThemeCSS(value) {
    // remove formatting from the url
    // set the root values
    // decode url to get the original url
-   if (value == 'https://thicc-thighs.de/stuff/wallpaper.webp') {
+   if (value == 'https://egirl.ing/stuff/wallpaper.webp') {
       DataStore.remove('background');
    } else {
       DataStore.set('background', decodeURIComponent(value));
@@ -166,7 +166,7 @@ function reloadTheme() {
          .getElementsByTagName('body')[0]
          .insertAdjacentHTML(
             'afterbegin',
-            '<link rel="stylesheet" href="https://thicc-thighs.de/league-css/Cute/cute.theme.min.css" />'
+            '<link rel="stylesheet" href="https://egirl.ing/league-css/Cute/cute.theme.min.css" />'
          );
       location.reload();
    }
@@ -178,7 +178,7 @@ window.addEventListener('load', async () => {
       .getElementsByTagName('body')[0]
       .insertAdjacentHTML(
          'afterbegin',
-         '<link rel="stylesheet" href="https://thicc-thighs.de/league-css/Cute/cute.theme.min.css" />'
+         '<link rel="stylesheet" href="https://egirl.ing/league-css/Cute/cute.theme.min.css" />'
       );
    if (checkIfPopulated()) {
       accessCuteThemeCSS(backgroundImg);
