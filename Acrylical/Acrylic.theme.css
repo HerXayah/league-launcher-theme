@@ -592,4 +592,12 @@ lol-social-availability-hitbox {
   height: 50px !important;
 }
 
+.rcp-fe-lol-event-hub-application {
+  background-image: none !important;
+}
+
+.eh-page-header {
+  background: none !important;
+}
+
 /* End of general theming section */
