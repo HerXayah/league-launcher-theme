@@ -8,7 +8,7 @@
    --font-display: 'Dosis', sans-serif !important;
    --font-body: 'Dosis', sans-serif !important;
    --background: linear-gradient(rgba(22, 22, 22, 0.6), rgba(22, 22, 22, 0.2)),
-      url('https://thicc-thighs.de/stuff/wallpaper.webp');
+      url('https://egirl.ing/stuff/wallpaper.webp');
 }
 
 /* UI */
@@ -75,7 +75,7 @@
 }
 
 /*.icon-image {
-   content: url('https://thicc-thighs.de/stuff/old_avatar.gif') !important;
+   content: url('https://egirl.ing/stuff/old_avatar.gif') !important;
 } */
 
 .clash-root-background-landing,
@@ -217,11 +217,11 @@ div[class='vng-age-rating ember-view'] {
 /* Icons */
 
 .currency-be-icon-static {
-   background-image: url('https://thicc-thighs.de/stuff/image.jpg') !important;
+   background-image: url('https://egirl.ing/stuff/image.jpg') !important;
 }
 
 .currency-rp {
-   background-image: url('https://thicc-thighs.de/stuff/mow.jpg') !important;
+   background-image: url('https://egirl.ing/stuff/mow.jpg') !important;
 }
 
 .ticker-button {
@@ -358,7 +358,7 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'],
 } */
 
 .lol-loading-screen-container .lol-loading-screen-lol-icon {
-   background: url('https://thicc-thighs.de/stuff/League/logo2.webp');
+   background: url('https://egirl.ing/stuff/League/logo2.webp');
    background-repeat: no-repeat;
    background-size: contain;
 }
