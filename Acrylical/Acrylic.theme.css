@@ -616,3 +616,7 @@ lol-social-availability-hitbox {
 .eh-page-header-show-bottom-border {
    border-bottom: none !important;
 }
+
+.deep-links-promo {
+   display: none !important;
+}
