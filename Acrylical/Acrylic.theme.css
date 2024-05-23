@@ -624,6 +624,11 @@ lol-social-availability-hitbox {
 .chat-window-wrapper {
    background-color: rgba(1, 10, 19, 0.23) !important;
    border: none !important;
+   border-radius: 20px;
+}
+
+.open {
+   transition: all 0.15s cubic-bezier(0, -1.61, 0.34, 0.99) !important;
 }
 
 .conversation:hover {
