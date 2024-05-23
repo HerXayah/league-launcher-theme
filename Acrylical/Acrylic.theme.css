@@ -620,3 +620,8 @@ lol-social-availability-hitbox {
 .deep-links-promo {
    display: none !important;
 }
+
+.chat-window-wrapper {
+   background-color: rgba(1, 10, 19, 0.23) !important;
+   border: none !important;
+}
