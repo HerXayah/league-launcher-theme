@@ -625,3 +625,7 @@ lol-social-availability-hitbox {
    background-color: rgba(1, 10, 19, 0.23) !important;
    border: none !important;
 }
+
+.conversation:hover {
+   background-color: rgba(1, 10, 19, 0.23) !important;
+}
