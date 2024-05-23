@@ -621,10 +621,9 @@ lol-social-availability-hitbox {
    display: none !important;
 }
 
-.chat-window-wrapper {
-   background-color: rgba(1, 10, 19, 0.23) !important;
+#chat-window-wrapper {
+   background-color: rgba(1, 10, 19, 0.43) !important;
    border: none !important;
-   border-radius: 20px;
 }
 
 .open {
