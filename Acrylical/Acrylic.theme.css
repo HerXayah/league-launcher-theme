@@ -34,7 +34,8 @@
 .moon-skin-banner-border-top::after,
 .moon-skin-banner-border-top::before,
 .moon-skin-banner-border-bottom::before,
-.moon-skin-banner-border-bottom::after {
+.moon-skin-banner-border-bottom::after,
+.mythic-shop-backdrop {
    background: none !important;
 }
 
