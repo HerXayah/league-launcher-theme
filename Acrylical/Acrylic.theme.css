@@ -28,6 +28,16 @@
    opacity: 1;
 }
 
+.moon-skin-backdrop,
+.moon-skin-banner-shroud-bot,
+.moon-skin-banner-border-top,
+.moon-skin-banner-border-top::after,
+.moon-skin-banner-border-top::before,
+.moon-skin-banner-border-bottom::before,
+.moon-skin-banner-border-bottom::after {
+   background: none !important;
+}
+
 /* Purple lobby buttons */
 .find-match-button-container,
 .role-selectors-container,
@@ -35,12 +45,20 @@
    filter: hue-rotate(90deg);
 }
 
-.summoner-level {
+.summoner-level,
+.moon-skin-active-banner-background-wrapper,
+.friend-header {
    display: none !important;
 }
 
-.friend-header {
-   display: none !important;
+.moon-skin-active-banner-container-wrapper {
+   box-shadow: none !important;
+}
+
+.moon-skin-banner-border-top,
+.moon-skin-banner-border-bottom,
+.moon-skin-active-banner-container-wrapper {
+   border: none !important;
 }
 
 /* Social panel (friends-list) menu buttons, leftmost panel */
