@@ -265,7 +265,8 @@
 .activity-center__background-component,
 .activity-center__header_container,
 :host(:not([type='dialog-frame'])) .lol-uikit-flat-button,
-.lol-uikit-flat-button-group {
+.lol-uikit-flat-button-group,
+#ember7342 {
    background-color: transparent !important;
    background: transparent !important;
    backdrop-filter: none !important;
