@@ -1,5 +1,5 @@
 /* Acrylic League of legends client theme */
-/* Version: 1.2 */
+/* Version: 1.3 */
 /* credits: @aimslut(discord), @egirlcatnip(discord) */
 
 /* Settings section */
@@ -48,7 +48,8 @@
 
 .summoner-level,
 .moon-skin-active-banner-background-wrapper,
-.friend-header {
+.friend-header,
+.activity-center__background-component__image {
    display: none !important;
 }
 
@@ -58,7 +59,8 @@
 
 .moon-skin-banner-border-top,
 .moon-skin-banner-border-bottom,
-.moon-skin-active-banner-container-wrapper {
+.moon-skin-active-banner-container-wrapper,
+:host(:not([type='dialog-frame'])) .lol-uikit-flat-button {
    border: none !important;
 }
 
@@ -255,7 +257,15 @@
 .event-shop-token-shop-header,
 .event-shop-progression-track,
 .event-shop-main-view-progression-minimize-button-trapezoid,
-.event-shop-main-view-progression-minimize-button-trapezoid-border {
+.event-shop-main-view-progression-minimize-button-trapezoid-border,
+.activity-center-application,
+.activity-center__background-component__blend,
+.activity-center__tabs_section-divider,
+.activity-center__tabs_footer_divider,
+.activity-center__background-component,
+.activity-center__header_container,
+:host(:not([type='dialog-frame'])) .lol-uikit-flat-button,
+.lol-uikit-flat-button-group {
    background-color: transparent !important;
    background: transparent !important;
    backdrop-filter: none !important;
@@ -280,7 +290,13 @@ html {
 }
 
 .group-separator,
-.currency-rp-top-up {
+.currency-rp-top-up,
+.queue-up-button-container,
+.ranked-intro-footer-container,
+.activity-center__tab_content_tab-magic,
+.activity-center__tab_content_tab-magic--selected,
+.activity-center__tab_content_image,
+.activity-center__tab_label_icon {
    display: none !important;
    border: none !important;
 }
@@ -616,16 +632,14 @@ lol-social-availability-hitbox {
    height: 50px !important;
 }
 
-.rcp-fe-lol-event-hub-application {
+.rcp-fe-lol-event-hub-application,
+.ranked-intro-background,
+#ember8994 {
    background-image: none !important;
 }
 
 .eh-page-header {
    background: none !important;
-}
-
-#ember8994 {
-   background-image: none !important;
 }
 
 /* End of general theming section */
