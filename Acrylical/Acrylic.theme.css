@@ -574,7 +574,8 @@ div[data-screen-name='rcp-fe-lol-navigation-screen'] {
    display: none !important;
 }
 
-.scoreboard-row-player-controls-container {
+.scoreboard-row-player-controls-container,
+.sanctum-backdrop {
    background: none !important;
 }
 
@@ -639,7 +640,10 @@ lol-social-availability-hitbox {
    background-image: none !important;
 }
 
-.eh-page-header {
+.eh-page-header,
+.shoppefront-categories-sidebar,
+.sanctum-banner-shroud,
+.sanctum-banner-shroud-bot {
    background: none !important;
 }
 
@@ -655,7 +659,8 @@ lol-social-availability-hitbox {
 .season-pass-background-shroud,
 .season-pass-header-background,
 .season-pass-background-extended,
-#ember31221 {
+#ember31221,
+.shoppefront-background {
    display: none !important;
 }
 
@@ -674,6 +679,66 @@ lol-social-availability-hitbox {
 
 .activity-center-default-activity,
 .activity-center__template,
-.activity-center-ready {
+.activity-center-ready,
+.skill-tree-rank-column-divisions {
    background-color: transparent !important;
+}
+
+.sanctum-active-banner-static-background img {
+   border-radius: 20px;
+}
+
+.sanctum-active-banner-container-wrapper,
+.sanctum-root-addon-component,
+.sanctum-banner-border-bottom,
+.sanctum-root-addon-component,
+.sanctum-banner-border-top {
+   border: none !important;
+   box-shadow: none !important;
+}
+
+.sanctum-banner-border-bottom,
+.sanctum-banner-shroud-bot,
+#backdrop {
+   display: none !important;
+}
+
+.sanctum-banner-border-top::after,
+.sanctum-banner-border-top::before,
+.catalog-vignette,
+.shard-overlay,
+.clash-arurf-intro-modal,
+.activity-center-skin-activity__background-shroud {
+   background: none !important;
+}
+
+/* Do Stuff lol */
+
+.shoppefront-catalog-item,
+.static-divisions {
+   border: transparent solid 1px !important;
+   border-radius: 20px;
+}
+
+/* Fun STuff with items. */
+
+.loot-item {
+   margin: 0 28px 19px 8px !important;
+}
+
+.visual-state-null,
+.visual-state-context-menu {
+   border-radius: 10px;
+}
+.border-normal,
+.border-hover {
+   display: none !important;
+}
+
+.item-content-frame,
+.clash-arurf-intro-modal,
+.milestone-tracker-background,
+#ember41624,
+.skill-tree-rank-column-content {
+   background-image: none !important;
 }
