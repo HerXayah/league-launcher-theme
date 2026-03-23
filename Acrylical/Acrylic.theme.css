@@ -651,7 +651,11 @@ lol-social-availability-hitbox {
    border-bottom: none !important;
 }
 
-.deep-links-promo {
+.deep-links-promo,
+.season-pass-background-shroud,
+.season-pass-header-background,
+.season-pass-background-extended,
+#ember31221 {
    display: none !important;
 }
 
