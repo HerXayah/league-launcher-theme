@@ -727,7 +727,8 @@ lol-social-availability-hitbox {
 }
 
 .visual-state-null,
-.visual-state-context-menu {
+.visual-state-context-menu,
+.overlay {
    border-radius: 10px;
 }
 .border-normal,
