@@ -667,3 +667,9 @@ lol-social-availability-hitbox {
 .conversation:hover {
    background-color: rgba(1, 10, 19, 0.23) !important;
 }
+
+.activity-center-default-activity,
+.activity-center__template,
+.activity-center-ready {
+   background-color: transparent !important;
+}
