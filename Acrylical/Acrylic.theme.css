@@ -658,7 +658,6 @@ lol-social-availability-hitbox {
 .deep-links-promo,
 .season-pass-background-shroud,
 .season-pass-header-background,
-.season-pass-background-extended,
 #ember31221,
 .shoppefront-background {
    display: none !important;
@@ -742,7 +741,9 @@ img[src*='ready-check-background.png'],
    border-radius: 10px;
 }
 .border-normal,
-.border-hover {
+.border-hover,
+.season-pass-header-background,
+img[src*='LOL_26S1_Battle_Pass_Track_1055x720.jpg'] {
    display: none !important;
 }
 
@@ -760,4 +761,17 @@ img[src*='gameflow-background.jpg'],
 img[src*='parties-background.jpg'],
 img[src*='ready-check-background.png'] {
    background-image: none !important;
+}
+
+.season-pass-background-extended {
+   width: 50%;
+   left: 18%;
+   top: 27%;
+   height: auto;
+   border-radius: 20px;
+}
+
+.event-hub-season-pass-root-extended {
+   justify-content: left;
+   margin: auto;
 }
