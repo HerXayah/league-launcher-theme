@@ -699,7 +699,15 @@ lol-social-availability-hitbox {
 
 .sanctum-banner-border-bottom,
 .sanctum-banner-shroud-bot,
-#backdrop {
+#backdrop,
+img[src*='map-south.png'],
+img[src*='map-north.png'],
+img[src*='champ-select-planning-intro.jpg'],
+img[src*='gameflow-background.jpg'],
+img[src*='parties-background.jpg'],
+img[src*='ready-check-background.png'],
+.champion-splash-background,
+.background-vignette-container {
    display: none !important;
 }
 
@@ -708,7 +716,9 @@ lol-social-availability-hitbox {
 .catalog-vignette,
 .shard-overlay,
 .clash-arurf-intro-modal,
-.activity-center-skin-activity__background-shroud {
+.activity-center-skin-activity__background-shroud,
+.champion-select,
+.uikit-background-switcher {
    background: none !important;
 }
 
@@ -740,6 +750,14 @@ lol-social-availability-hitbox {
 .clash-arurf-intro-modal,
 .milestone-tracker-background,
 #ember41624,
-.skill-tree-rank-column-content {
+.champion-select,
+.champion-splash-background,
+.skill-tree-rank-column-content,
+img[src*='map-south.png'],
+img[src*='map-north.png'],
+img[src*='champ-select-planning-intro.jpg'],
+img[src*='gameflow-background.jpg'],
+img[src*='parties-background.jpg'],
+img[src*='ready-check-background.png'] {
    background-image: none !important;
 }
